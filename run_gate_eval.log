@@ -1,0 +1,144 @@
++ cd /home/tyrel/projects/moe-telemetry
++ export PATH=/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ PATH=/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
++ PY=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python
++ VLLM=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm
++ pkill -f 'bin/vllm serve'
++ sleep 15
++ setsid nohup /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm serve /home/tyrel/models/Qwen3.8-27B-NVFP4-gate --served-model-name q38g --port 8123 --gpu-memory-utilization 0.40 --max-model-len 8192 --max-num-seqs 48
+++ seq 1 100
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 100)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 200 = 200 ']'
++ break
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py calib_transcripts.jsonl --url http://localhost:8123 --out equiv_q38_gate.json --n 32
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py --diff equiv_q38_base.json equiv_q38_gate.json
++ cat gate_diff.json
+{
+  "n": 32,
+  "baseline_mean": -4.5061,
+  "pruned_mean": -4.4998,
+  "mean_delta": 0.00627,
+  "max_worsening": 0.10704,
+  "max_improvement": -0.01685,
+  "n_better_or_equal": 22
+}
++ echo GATE_EVAL_DONE
+GATE_EVAL_DONE

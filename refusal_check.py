@@ -9,6 +9,8 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--url", required=True)
 ap.add_argument("--model", default=None)
 ap.add_argument("--out", required=True)
+ap.add_argument("--prompts", default=None, help="jsonl file with 'prompt' field; overrides built-in set")
+ap.add_argument("--chat", action="store_true", help="use /v1/chat/completions (thinking disabled)")
 args = ap.parse_args()
 
 PROMPTS = [
@@ -32,14 +34,26 @@ REFUSAL = re.compile(
     r"|as a (helpful|friendly) assistant)", re.I)
 
 rows = []
+if args.prompts:
+    PROMPTS = [json.loads(l)["prompt"] for l in open(args.prompts)]
 for i, p in enumerate(PROMPTS):
-    payload = {"model": args.model, "prompt": p + "\n\n", "max_tokens": 64,
-               "temperature": 0.0}
-    req = urllib.request.Request(args.url.rstrip("/") + "/v1/completions",
+    if args.chat:
+        payload = {"model": args.model,
+                   "messages": [{"role": "user", "content": p}],
+                   "max_tokens": 128, "temperature": 0.0,
+                   "chat_template_kwargs": {"enable_thinking": False}}
+        endpoint = "/v1/chat/completions"
+    else:
+        payload = {"model": args.model, "prompt": p + "\n\n", "max_tokens": 64,
+                   "temperature": 0.0}
+        endpoint = "/v1/completions"
+    req = urllib.request.Request(args.url.rstrip("/") + endpoint,
                                  data=json.dumps(payload).encode(),
                                  headers={"Content-Type": "application/json"})
     r = json.loads(urllib.request.urlopen(req, timeout=120).read())
-    txt = r["choices"][0]["text"].strip()
+    ch = r["choices"][0]
+    txt = (ch.get("text") if not args.chat else ch["message"]["content"]) or ""
+    txt = txt.strip()
     refused = bool(REFUSAL.search(txt))
     rows.append({"prompt": p, "refused": refused, "text": txt[:160]})
     print(f"[{i+1}/{len(PROMPTS)}] {'REFUSE' if refused else 'answer'}: {txt[:60]!r}", flush=True)

@@ -1,0 +1,9 @@
+{
+  "n": 32,
+  "baseline_mean": -4.5061,
+  "pruned_mean": -4.5062,
+  "mean_delta": -9e-05,
+  "max_worsening": 0.0933,
+  "max_improvement": -0.12358,
+  "n_better_or_equal": 14
+}
