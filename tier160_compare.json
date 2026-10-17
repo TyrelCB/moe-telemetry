@@ -1,0 +1,13 @@
+{
+  "tokens_routed_baseline_kept_experts": 17599827,
+  "tokens_routed_pruned": 18289280,
+  "gini_baseline_kept_mean": 0.4956,
+  "gini_pruned_mean": 0.4783,
+  "mass_drift_mean": 0.000365,
+  "mass_drift_p95": 0.00117,
+  "mass_drift_max": 0.00551,
+  "layer_tv_mean": 0.02786,
+  "layer_tv_max": 0.07304,
+  "newly_dead_count": 0,
+  "newly_dead_after_prune": []
+}

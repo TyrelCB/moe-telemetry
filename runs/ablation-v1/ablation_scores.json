@@ -1,0 +1,246 @@
+{
+  "baseline_logprob_token": -4.310637060408958,
+  "results": [
+    {
+      "layer": 15,
+      "experts": [
+        15,
+        164,
+        201
+      ],
+      "mean_dlogprob_token": 0.0008678799349581823,
+      "masked_slot_hits": 1,
+      "group": true
+    },
+    {
+      "layer": 37,
+      "experts": [
+        40,
+        79,
+        142,
+        150,
+        154,
+        157,
+        183,
+        197,
+        216,
+        223,
+        228,
+        236
+      ],
+      "mean_dlogprob_token": 0.0005543705228774343,
+      "masked_slot_hits": 2,
+      "group": true
+    },
+    {
+      "layer": 29,
+      "experts": [
+        75
+      ],
+      "mean_dlogprob_token": 7.716962682025041e-05,
+      "masked_slot_hits": 1,
+      "group": true
+    },
+    {
+      "layer": 34,
+      "experts": [
+        35,
+        148,
+        156,
+        193,
+        237
+      ],
+      "mean_dlogprob_token": 1.8640643247636035e-05,
+      "masked_slot_hits": 1,
+      "group": true
+    },
+    {
+      "layer": 10,
+      "experts": [
+        209
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 12,
+      "experts": [
+        25,
+        86
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 14,
+      "experts": [
+        74,
+        233
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 16,
+      "experts": [
+        125,
+        251
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 17,
+      "experts": [
+        81
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 19,
+      "experts": [
+        0
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 25,
+      "experts": [
+        186
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 28,
+      "experts": [
+        125
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 30,
+      "experts": [
+        7
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 31,
+      "experts": [
+        182,
+        187
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 32,
+      "experts": [
+        69,
+        114
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 33,
+      "experts": [
+        14,
+        80,
+        216
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 35,
+      "experts": [
+        70,
+        82,
+        109,
+        150,
+        177,
+        188,
+        205,
+        238
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 39,
+      "experts": [
+        4,
+        49,
+        51,
+        71,
+        102,
+        111,
+        119,
+        143,
+        214
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0,
+      "group": true
+    },
+    {
+      "layer": 38,
+      "experts": [
+        26,
+        51,
+        130,
+        152,
+        155,
+        170,
+        183,
+        203,
+        221
+      ],
+      "mean_dlogprob_token": -0.0001304955112573225,
+      "masked_slot_hits": 3,
+      "group": true
+    },
+    {
+      "layer": 36,
+      "experts": [
+        46,
+        71,
+        90,
+        91,
+        100,
+        150,
+        162,
+        180,
+        183,
+        184,
+        197,
+        200,
+        209,
+        236,
+        243
+      ],
+      "mean_dlogprob_token": -0.0005775492172688246,
+      "masked_slot_hits": 3,
+      "group": true
+    }
+  ]
+}

@@ -1,0 +1,7685 @@
+{
+  "baseline_logprob_token": -4.1002400213593715,
+  "results": [
+    {
+      "layer": 2,
+      "chunk": 4,
+      "experts": [
+        6,
+        7,
+        55,
+        105,
+        177,
+        183,
+        245,
+        250
+      ],
+      "mean_dlogprob_token": 0.01275478996098478,
+      "masked_slot_hits": 122
+    },
+    {
+      "layer": 13,
+      "chunk": 11,
+      "experts": [
+        52,
+        67,
+        91,
+        114,
+        163,
+        177,
+        237,
+        241
+      ],
+      "mean_dlogprob_token": 0.01221964609149584,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 12,
+      "chunk": 9,
+      "experts": [
+        4,
+        51,
+        64,
+        118,
+        120,
+        126,
+        139,
+        175
+      ],
+      "mean_dlogprob_token": 0.011492425320493993,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 2,
+      "chunk": 2,
+      "experts": [
+        9,
+        30,
+        66,
+        119,
+        151,
+        203,
+        243,
+        244
+      ],
+      "mean_dlogprob_token": 0.010826505280699728,
+      "masked_slot_hits": 71
+    },
+    {
+      "layer": 11,
+      "chunk": 7,
+      "experts": [
+        46,
+        155,
+        176,
+        184,
+        226,
+        242,
+        246,
+        252
+      ],
+      "mean_dlogprob_token": 0.01034332868978094,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 2,
+      "chunk": 6,
+      "experts": [
+        19,
+        25,
+        28,
+        68,
+        144,
+        181,
+        213,
+        224
+      ],
+      "mean_dlogprob_token": 0.010210157579944479,
+      "masked_slot_hits": 116
+    },
+    {
+      "layer": 4,
+      "chunk": 7,
+      "experts": [
+        25,
+        27,
+        75,
+        83,
+        117,
+        189,
+        220,
+        232
+      ],
+      "mean_dlogprob_token": 0.010162860701711907,
+      "masked_slot_hits": 74
+    },
+    {
+      "layer": 4,
+      "chunk": 4,
+      "experts": [
+        3,
+        33,
+        42,
+        52,
+        107,
+        186,
+        217,
+        225
+      ],
+      "mean_dlogprob_token": 0.009703437274826143,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 0,
+      "chunk": 11,
+      "experts": [
+        8,
+        21,
+        40,
+        120,
+        159,
+        170,
+        246,
+        254
+      ],
+      "mean_dlogprob_token": 0.009230570203865973,
+      "masked_slot_hits": 199
+    },
+    {
+      "layer": 19,
+      "chunk": 10,
+      "experts": [
+        32,
+        40,
+        69,
+        74,
+        170,
+        189,
+        217,
+        236
+      ],
+      "mean_dlogprob_token": 0.009072538702629807,
+      "masked_slot_hits": 55
+    },
+    {
+      "layer": 2,
+      "chunk": 0,
+      "experts": [
+        18,
+        32,
+        45,
+        126,
+        184,
+        195,
+        206,
+        220
+      ],
+      "mean_dlogprob_token": 0.008362684211202343,
+      "masked_slot_hits": 39
+    },
+    {
+      "layer": 1,
+      "chunk": 11,
+      "experts": [
+        24,
+        30,
+        83,
+        89,
+        168,
+        179,
+        189,
+        215
+      ],
+      "mean_dlogprob_token": 0.00831690795984752,
+      "masked_slot_hits": 212
+    },
+    {
+      "layer": 24,
+      "chunk": 10,
+      "experts": [
+        10,
+        34,
+        87,
+        88,
+        96,
+        148,
+        174,
+        201
+      ],
+      "mean_dlogprob_token": 0.007842363248667716,
+      "masked_slot_hits": 46
+    },
+    {
+      "layer": 15,
+      "chunk": 5,
+      "experts": [
+        7,
+        10,
+        104,
+        111,
+        126,
+        144,
+        158,
+        163
+      ],
+      "mean_dlogprob_token": 0.007605238021824334,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 12,
+      "chunk": 8,
+      "experts": [
+        66,
+        72,
+        88,
+        91,
+        136,
+        153,
+        188,
+        252
+      ],
+      "mean_dlogprob_token": 0.007222927920870426,
+      "masked_slot_hits": 68
+    },
+    {
+      "layer": 24,
+      "chunk": 8,
+      "experts": [
+        54,
+        68,
+        78,
+        111,
+        133,
+        211,
+        213,
+        252
+      ],
+      "mean_dlogprob_token": 0.007100603540913575,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 3,
+      "chunk": 6,
+      "experts": [
+        47,
+        49,
+        62,
+        109,
+        127,
+        156,
+        205,
+        234
+      ],
+      "mean_dlogprob_token": 0.007023483634863048,
+      "masked_slot_hits": 64
+    },
+    {
+      "layer": 15,
+      "chunk": 10,
+      "experts": [
+        56,
+        118,
+        124,
+        157,
+        187,
+        232,
+        243,
+        255
+      ],
+      "mean_dlogprob_token": 0.0069209914524881455,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 1,
+      "chunk": 5,
+      "experts": [
+        15,
+        116,
+        142,
+        200,
+        201,
+        238,
+        247,
+        249
+      ],
+      "mean_dlogprob_token": 0.006914755604072731,
+      "masked_slot_hits": 76
+    },
+    {
+      "layer": 22,
+      "chunk": 10,
+      "experts": [
+        10,
+        11,
+        61,
+        80,
+        100,
+        183,
+        224,
+        249
+      ],
+      "mean_dlogprob_token": 0.006718737030099398,
+      "masked_slot_hits": 50
+    },
+    {
+      "layer": 22,
+      "chunk": 8,
+      "experts": [
+        48,
+        94,
+        97,
+        138,
+        149,
+        188,
+        226,
+        245
+      ],
+      "mean_dlogprob_token": 0.0066122740523635315,
+      "masked_slot_hits": 35
+    },
+    {
+      "layer": 27,
+      "chunk": 8,
+      "experts": [
+        7,
+        19,
+        52,
+        86,
+        151,
+        156,
+        190,
+        199
+      ],
+      "mean_dlogprob_token": 0.006482625926886421,
+      "masked_slot_hits": 48
+    },
+    {
+      "layer": 1,
+      "chunk": 1,
+      "experts": [
+        31,
+        36,
+        50,
+        54,
+        102,
+        125,
+        130,
+        218
+      ],
+      "mean_dlogprob_token": 0.006441214530119588,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 12,
+      "chunk": 5,
+      "experts": [
+        30,
+        49,
+        105,
+        121,
+        170,
+        234,
+        239,
+        243
+      ],
+      "mean_dlogprob_token": 0.006409815973165145,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 29,
+      "chunk": 11,
+      "experts": [
+        32,
+        77,
+        90,
+        95,
+        137,
+        192,
+        215,
+        231
+      ],
+      "mean_dlogprob_token": 0.006408091785185199,
+      "masked_slot_hits": 76
+    },
+    {
+      "layer": 2,
+      "chunk": 8,
+      "experts": [
+        14,
+        26,
+        47,
+        96,
+        104,
+        152,
+        166,
+        168
+      ],
+      "mean_dlogprob_token": 0.006401155743944287,
+      "masked_slot_hits": 171
+    },
+    {
+      "layer": 2,
+      "chunk": 9,
+      "experts": [
+        67,
+        70,
+        73,
+        74,
+        97,
+        124,
+        231,
+        254
+      ],
+      "mean_dlogprob_token": 0.006370008115482051,
+      "masked_slot_hits": 106
+    },
+    {
+      "layer": 15,
+      "chunk": 7,
+      "experts": [
+        31,
+        52,
+        68,
+        138,
+        192,
+        223,
+        239,
+        246
+      ],
+      "mean_dlogprob_token": 0.00623326313598227,
+      "masked_slot_hits": 31
+    },
+    {
+      "layer": 2,
+      "chunk": 3,
+      "experts": [
+        50,
+        51,
+        78,
+        91,
+        131,
+        180,
+        205,
+        225
+      ],
+      "mean_dlogprob_token": 0.006100114287675318,
+      "masked_slot_hits": 140
+    },
+    {
+      "layer": 22,
+      "chunk": 9,
+      "experts": [
+        54,
+        60,
+        90,
+        115,
+        139,
+        145,
+        148,
+        191
+      ],
+      "mean_dlogprob_token": 0.0060342046056272025,
+      "masked_slot_hits": 68
+    },
+    {
+      "layer": 29,
+      "chunk": 10,
+      "experts": [
+        13,
+        27,
+        34,
+        66,
+        124,
+        134,
+        197,
+        249
+      ],
+      "mean_dlogprob_token": 0.006007413828032604,
+      "masked_slot_hits": 61
+    },
+    {
+      "layer": 5,
+      "chunk": 9,
+      "experts": [
+        0,
+        50,
+        59,
+        74,
+        157,
+        222,
+        229,
+        232
+      ],
+      "mean_dlogprob_token": 0.005979531338133448,
+      "masked_slot_hits": 60
+    },
+    {
+      "layer": 4,
+      "chunk": 1,
+      "experts": [
+        73,
+        113,
+        125,
+        204,
+        209,
+        212,
+        226,
+        252
+      ],
+      "mean_dlogprob_token": 0.005960022202998516,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 28,
+      "chunk": 7,
+      "experts": [
+        25,
+        91,
+        104,
+        110,
+        141,
+        154,
+        160,
+        214
+      ],
+      "mean_dlogprob_token": 0.005905242789594922,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 11,
+      "chunk": 4,
+      "experts": [
+        4,
+        16,
+        40,
+        91,
+        165,
+        171,
+        193,
+        235
+      ],
+      "mean_dlogprob_token": 0.005897021768760169,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 0,
+      "chunk": 1,
+      "experts": [
+        55,
+        143,
+        162,
+        169,
+        195,
+        201,
+        224,
+        248
+      ],
+      "mean_dlogprob_token": 0.005881196727876237,
+      "masked_slot_hits": 64
+    },
+    {
+      "layer": 15,
+      "chunk": 9,
+      "experts": [
+        19,
+        97,
+        106,
+        108,
+        136,
+        173,
+        224,
+        237
+      ],
+      "mean_dlogprob_token": 0.005844195798817786,
+      "masked_slot_hits": 25
+    },
+    {
+      "layer": 10,
+      "chunk": 6,
+      "experts": [
+        37,
+        41,
+        86,
+        94,
+        166,
+        178,
+        191,
+        208
+      ],
+      "mean_dlogprob_token": 0.00574837784643023,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 6,
+      "chunk": 10,
+      "experts": [
+        28,
+        44,
+        58,
+        63,
+        115,
+        190,
+        192,
+        231
+      ],
+      "mean_dlogprob_token": 0.005710059819793223,
+      "masked_slot_hits": 38
+    },
+    {
+      "layer": 29,
+      "chunk": 9,
+      "experts": [
+        2,
+        33,
+        116,
+        145,
+        151,
+        200,
+        207,
+        212
+      ],
+      "mean_dlogprob_token": 0.005612219807260566,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 16,
+      "chunk": 9,
+      "experts": [
+        36,
+        42,
+        57,
+        146,
+        157,
+        184,
+        236,
+        242
+      ],
+      "mean_dlogprob_token": 0.0055322299758699955,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 3,
+      "chunk": 5,
+      "experts": [
+        7,
+        24,
+        102,
+        115,
+        141,
+        176,
+        193,
+        210
+      ],
+      "mean_dlogprob_token": 0.0055235262197710355,
+      "masked_slot_hits": 40
+    },
+    {
+      "layer": 11,
+      "chunk": 8,
+      "experts": [
+        31,
+        45,
+        94,
+        187,
+        190,
+        215,
+        219,
+        228
+      ],
+      "mean_dlogprob_token": 0.005481340706682936,
+      "masked_slot_hits": 61
+    },
+    {
+      "layer": 19,
+      "chunk": 9,
+      "experts": [
+        18,
+        49,
+        50,
+        180,
+        192,
+        214,
+        234,
+        235
+      ],
+      "mean_dlogprob_token": 0.005269047679715477,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 0,
+      "chunk": 4,
+      "experts": [
+        15,
+        37,
+        114,
+        119,
+        156,
+        203,
+        219,
+        237
+      ],
+      "mean_dlogprob_token": 0.005181645181579597,
+      "masked_slot_hits": 113
+    },
+    {
+      "layer": 6,
+      "chunk": 1,
+      "experts": [
+        38,
+        85,
+        94,
+        134,
+        180,
+        219,
+        220,
+        224
+      ],
+      "mean_dlogprob_token": 0.005153918296855409,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 0,
+      "chunk": 10,
+      "experts": [
+        47,
+        53,
+        72,
+        91,
+        190,
+        198,
+        225,
+        247
+      ],
+      "mean_dlogprob_token": 0.0050558943136795875,
+      "masked_slot_hits": 122
+    },
+    {
+      "layer": 14,
+      "chunk": 8,
+      "experts": [
+        9,
+        29,
+        42,
+        56,
+        87,
+        114,
+        201,
+        228
+      ],
+      "mean_dlogprob_token": 0.004989305914023134,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 14,
+      "chunk": 6,
+      "experts": [
+        31,
+        33,
+        34,
+        45,
+        115,
+        128,
+        250,
+        255
+      ],
+      "mean_dlogprob_token": 0.0049785537492148535,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 18,
+      "chunk": 9,
+      "experts": [
+        2,
+        10,
+        37,
+        64,
+        77,
+        86,
+        98,
+        105
+      ],
+      "mean_dlogprob_token": 0.004966897856459873,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 30,
+      "chunk": 9,
+      "experts": [
+        35,
+        70,
+        95,
+        145,
+        164,
+        172,
+        173,
+        227
+      ],
+      "mean_dlogprob_token": 0.004939975811262265,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 3,
+      "chunk": 7,
+      "experts": [
+        13,
+        111,
+        126,
+        149,
+        207,
+        218,
+        240,
+        253
+      ],
+      "mean_dlogprob_token": 0.004918260446902245,
+      "masked_slot_hits": 55
+    },
+    {
+      "layer": 4,
+      "chunk": 11,
+      "experts": [
+        5,
+        68,
+        96,
+        136,
+        168,
+        176,
+        227,
+        255
+      ],
+      "mean_dlogprob_token": 0.004740080178635253,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 11,
+      "chunk": 9,
+      "experts": [
+        61,
+        131,
+        138,
+        152,
+        168,
+        172,
+        173,
+        212
+      ],
+      "mean_dlogprob_token": 0.0047332302401494886,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 10,
+      "chunk": 11,
+      "experts": [
+        48,
+        71,
+        179,
+        195,
+        212,
+        214,
+        227,
+        231
+      ],
+      "mean_dlogprob_token": 0.004555994260665663,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 27,
+      "chunk": 11,
+      "experts": [
+        10,
+        17,
+        125,
+        149,
+        179,
+        227,
+        236,
+        255
+      ],
+      "mean_dlogprob_token": 0.0044932125201135875,
+      "masked_slot_hits": 49
+    },
+    {
+      "layer": 3,
+      "chunk": 8,
+      "experts": [
+        0,
+        32,
+        60,
+        107,
+        145,
+        200,
+        206,
+        242
+      ],
+      "mean_dlogprob_token": 0.004321960229638044,
+      "masked_slot_hits": 90
+    },
+    {
+      "layer": 21,
+      "chunk": 6,
+      "experts": [
+        7,
+        8,
+        34,
+        43,
+        134,
+        138,
+        152,
+        196
+      ],
+      "mean_dlogprob_token": 0.0042083276975972694,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 1,
+      "chunk": 3,
+      "experts": [
+        18,
+        25,
+        45,
+        121,
+        138,
+        159,
+        170,
+        213
+      ],
+      "mean_dlogprob_token": 0.0041353141831192985,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 17,
+      "chunk": 9,
+      "experts": [
+        72,
+        128,
+        141,
+        143,
+        160,
+        177,
+        200,
+        244
+      ],
+      "mean_dlogprob_token": 0.00401890412061956,
+      "masked_slot_hits": 40
+    },
+    {
+      "layer": 18,
+      "chunk": 8,
+      "experts": [
+        28,
+        45,
+        82,
+        101,
+        153,
+        154,
+        165,
+        196
+      ],
+      "mean_dlogprob_token": 0.003968883720097516,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 0,
+      "chunk": 8,
+      "experts": [
+        25,
+        74,
+        116,
+        132,
+        133,
+        145,
+        148,
+        158
+      ],
+      "mean_dlogprob_token": 0.0039006715880205434,
+      "masked_slot_hits": 180
+    },
+    {
+      "layer": 20,
+      "chunk": 8,
+      "experts": [
+        13,
+        102,
+        114,
+        142,
+        199,
+        214,
+        230,
+        248
+      ],
+      "mean_dlogprob_token": 0.003835831762444286,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 25,
+      "chunk": 7,
+      "experts": [
+        15,
+        27,
+        77,
+        82,
+        106,
+        128,
+        158,
+        173
+      ],
+      "mean_dlogprob_token": 0.003765464897696802,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 32,
+      "chunk": 10,
+      "experts": [
+        31,
+        54,
+        97,
+        140,
+        218,
+        219,
+        226,
+        227
+      ],
+      "mean_dlogprob_token": 0.003746435920541913,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 18,
+      "chunk": 7,
+      "experts": [
+        17,
+        74,
+        99,
+        160,
+        182,
+        238,
+        239,
+        244
+      ],
+      "mean_dlogprob_token": 0.0036885530389554333,
+      "masked_slot_hits": 19
+    },
+    {
+      "layer": 28,
+      "chunk": 11,
+      "experts": [
+        48,
+        58,
+        101,
+        120,
+        146,
+        159,
+        180,
+        202
+      ],
+      "mean_dlogprob_token": 0.00366434121366499,
+      "masked_slot_hits": 85
+    },
+    {
+      "layer": 25,
+      "chunk": 6,
+      "experts": [
+        34,
+        55,
+        73,
+        75,
+        86,
+        187,
+        193,
+        241
+      ],
+      "mean_dlogprob_token": 0.0036562607829182525,
+      "masked_slot_hits": 19
+    },
+    {
+      "layer": 26,
+      "chunk": 10,
+      "experts": [
+        49,
+        78,
+        97,
+        116,
+        145,
+        155,
+        169,
+        247
+      ],
+      "mean_dlogprob_token": 0.0036517371524427134,
+      "masked_slot_hits": 41
+    },
+    {
+      "layer": 2,
+      "chunk": 5,
+      "experts": [
+        27,
+        46,
+        81,
+        122,
+        148,
+        186,
+        202,
+        227
+      ],
+      "mean_dlogprob_token": 0.00363619656042502,
+      "masked_slot_hits": 99
+    },
+    {
+      "layer": 26,
+      "chunk": 5,
+      "experts": [
+        33,
+        89,
+        123,
+        134,
+        184,
+        201,
+        232,
+        243
+      ],
+      "mean_dlogprob_token": 0.0035890623982473002,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 17,
+      "chunk": 10,
+      "experts": [
+        28,
+        67,
+        124,
+        151,
+        163,
+        168,
+        180,
+        245
+      ],
+      "mean_dlogprob_token": 0.0035723127509603714,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 30,
+      "chunk": 11,
+      "experts": [
+        1,
+        34,
+        82,
+        89,
+        111,
+        123,
+        196,
+        217
+      ],
+      "mean_dlogprob_token": 0.003569687020829271,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 10,
+      "chunk": 10,
+      "experts": [
+        10,
+        14,
+        50,
+        82,
+        110,
+        168,
+        192,
+        238
+      ],
+      "mean_dlogprob_token": 0.003567554520235383,
+      "masked_slot_hits": 57
+    },
+    {
+      "layer": 31,
+      "chunk": 9,
+      "experts": [
+        53,
+        86,
+        114,
+        115,
+        125,
+        208,
+        209,
+        242
+      ],
+      "mean_dlogprob_token": 0.003558004559351069,
+      "masked_slot_hits": 42
+    },
+    {
+      "layer": 14,
+      "chunk": 3,
+      "experts": [
+        27,
+        133,
+        134,
+        161,
+        176,
+        185,
+        186,
+        208
+      ],
+      "mean_dlogprob_token": 0.003545822396517906,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 23,
+      "chunk": 8,
+      "experts": [
+        11,
+        45,
+        73,
+        131,
+        168,
+        228,
+        237,
+        246
+      ],
+      "mean_dlogprob_token": 0.0034327627203074584,
+      "masked_slot_hits": 83
+    },
+    {
+      "layer": 24,
+      "chunk": 6,
+      "experts": [
+        66,
+        69,
+        77,
+        89,
+        110,
+        118,
+        136,
+        170
+      ],
+      "mean_dlogprob_token": 0.003429374009129127,
+      "masked_slot_hits": 30
+    },
+    {
+      "layer": 9,
+      "chunk": 4,
+      "experts": [
+        3,
+        10,
+        85,
+        90,
+        92,
+        150,
+        223,
+        244
+      ],
+      "mean_dlogprob_token": 0.003410278419323731,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 11,
+      "chunk": 3,
+      "experts": [
+        8,
+        113,
+        118,
+        125,
+        139,
+        178,
+        214,
+        234
+      ],
+      "mean_dlogprob_token": 0.003404045884963125,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 25,
+      "chunk": 11,
+      "experts": [
+        94,
+        99,
+        102,
+        117,
+        161,
+        172,
+        214,
+        233
+      ],
+      "mean_dlogprob_token": 0.0033645510720683447,
+      "masked_slot_hits": 45
+    },
+    {
+      "layer": 5,
+      "chunk": 7,
+      "experts": [
+        33,
+        62,
+        95,
+        130,
+        197,
+        207,
+        217,
+        240
+      ],
+      "mean_dlogprob_token": 0.003334134325996274,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 27,
+      "chunk": 6,
+      "experts": [
+        32,
+        75,
+        100,
+        129,
+        140,
+        158,
+        230,
+        252
+      ],
+      "mean_dlogprob_token": 0.0033276983895120793,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 20,
+      "chunk": 7,
+      "experts": [
+        45,
+        88,
+        96,
+        125,
+        138,
+        161,
+        163,
+        182
+      ],
+      "mean_dlogprob_token": 0.0033054024574923346,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 30,
+      "chunk": 7,
+      "experts": [
+        9,
+        10,
+        27,
+        109,
+        153,
+        185,
+        191,
+        213
+      ],
+      "mean_dlogprob_token": 0.00325609001902194,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 19,
+      "chunk": 7,
+      "experts": [
+        9,
+        46,
+        52,
+        65,
+        76,
+        77,
+        163,
+        232
+      ],
+      "mean_dlogprob_token": 0.003236143860401164,
+      "masked_slot_hits": 50
+    },
+    {
+      "layer": 23,
+      "chunk": 9,
+      "experts": [
+        4,
+        68,
+        84,
+        91,
+        117,
+        148,
+        149,
+        224
+      ],
+      "mean_dlogprob_token": 0.003234082145564088,
+      "masked_slot_hits": 48
+    },
+    {
+      "layer": 37,
+      "chunk": 7,
+      "experts": [
+        7,
+        106,
+        121,
+        129,
+        171,
+        178,
+        185,
+        225
+      ],
+      "mean_dlogprob_token": 0.0031904025590243634,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 26,
+      "chunk": 9,
+      "experts": [
+        16,
+        29,
+        31,
+        70,
+        94,
+        126,
+        127,
+        239
+      ],
+      "mean_dlogprob_token": 0.0031451637914869934,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 32,
+      "chunk": 11,
+      "experts": [
+        20,
+        34,
+        56,
+        64,
+        82,
+        103,
+        168,
+        187
+      ],
+      "mean_dlogprob_token": 0.00311037288471816,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 12,
+      "chunk": 7,
+      "experts": [
+        57,
+        69,
+        82,
+        89,
+        103,
+        114,
+        209,
+        228
+      ],
+      "mean_dlogprob_token": 0.0030786432917011552,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 24,
+      "chunk": 9,
+      "experts": [
+        82,
+        92,
+        103,
+        113,
+        139,
+        175,
+        237,
+        248
+      ],
+      "mean_dlogprob_token": 0.003060273225016452,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 16,
+      "chunk": 7,
+      "experts": [
+        6,
+        15,
+        24,
+        48,
+        110,
+        192,
+        206,
+        218
+      ],
+      "mean_dlogprob_token": 0.003047584299565642,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 16,
+      "chunk": 11,
+      "experts": [
+        63,
+        69,
+        100,
+        101,
+        187,
+        194,
+        223,
+        239
+      ],
+      "mean_dlogprob_token": 0.003035546422674784,
+      "masked_slot_hits": 35
+    },
+    {
+      "layer": 2,
+      "chunk": 7,
+      "experts": [
+        98,
+        137,
+        160,
+        185,
+        208,
+        215,
+        229,
+        232
+      ],
+      "mean_dlogprob_token": 0.0029850133671667223,
+      "masked_slot_hits": 126
+    },
+    {
+      "layer": 29,
+      "chunk": 7,
+      "experts": [
+        44,
+        45,
+        79,
+        84,
+        109,
+        226,
+        247,
+        251
+      ],
+      "mean_dlogprob_token": 0.0029784344089698322,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 3,
+      "chunk": 10,
+      "experts": [
+        5,
+        65,
+        68,
+        72,
+        90,
+        184,
+        192,
+        239
+      ],
+      "mean_dlogprob_token": 0.0029759379645506456,
+      "masked_slot_hits": 80
+    },
+    {
+      "layer": 17,
+      "chunk": 11,
+      "experts": [
+        32,
+        118,
+        121,
+        148,
+        187,
+        196,
+        212,
+        232
+      ],
+      "mean_dlogprob_token": 0.0029492367739294423,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 3,
+      "chunk": 3,
+      "experts": [
+        52,
+        64,
+        82,
+        88,
+        96,
+        101,
+        198,
+        209
+      ],
+      "mean_dlogprob_token": 0.0028474240834839293,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 19,
+      "chunk": 11,
+      "experts": [
+        27,
+        56,
+        87,
+        100,
+        106,
+        127,
+        134,
+        208
+      ],
+      "mean_dlogprob_token": 0.002839378902050882,
+      "masked_slot_hits": 59
+    },
+    {
+      "layer": 23,
+      "chunk": 5,
+      "experts": [
+        26,
+        48,
+        55,
+        57,
+        61,
+        81,
+        103,
+        242
+      ],
+      "mean_dlogprob_token": 0.002833497702643406,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 12,
+      "chunk": 3,
+      "experts": [
+        36,
+        40,
+        48,
+        90,
+        129,
+        135,
+        179,
+        229
+      ],
+      "mean_dlogprob_token": 0.0028230169955349993,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 31,
+      "chunk": 7,
+      "experts": [
+        32,
+        46,
+        77,
+        142,
+        175,
+        181,
+        186,
+        220
+      ],
+      "mean_dlogprob_token": 0.0027754610619012965,
+      "masked_slot_hits": 41
+    },
+    {
+      "layer": 21,
+      "chunk": 4,
+      "experts": [
+        40,
+        85,
+        90,
+        101,
+        109,
+        121,
+        158,
+        226
+      ],
+      "mean_dlogprob_token": 0.002698482143387082,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 28,
+      "chunk": 10,
+      "experts": [
+        100,
+        129,
+        148,
+        187,
+        197,
+        215,
+        222,
+        246
+      ],
+      "mean_dlogprob_token": 0.0026784181654875283,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 1,
+      "chunk": 9,
+      "experts": [
+        10,
+        67,
+        76,
+        100,
+        131,
+        156,
+        204,
+        253
+      ],
+      "mean_dlogprob_token": 0.002677917015017073,
+      "masked_slot_hits": 128
+    },
+    {
+      "layer": 3,
+      "chunk": 0,
+      "experts": [
+        71,
+        104,
+        112,
+        120,
+        144,
+        175,
+        220,
+        223
+      ],
+      "mean_dlogprob_token": 0.0026759396541820024,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 33,
+      "chunk": 10,
+      "experts": [
+        7,
+        30,
+        38,
+        55,
+        128,
+        134,
+        146,
+        254
+      ],
+      "mean_dlogprob_token": 0.0026557473462167636,
+      "masked_slot_hits": 57
+    },
+    {
+      "layer": 19,
+      "chunk": 4,
+      "experts": [
+        81,
+        83,
+        98,
+        104,
+        123,
+        171,
+        176,
+        250
+      ],
+      "mean_dlogprob_token": 0.002647843668385441,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 2,
+      "chunk": 11,
+      "experts": [
+        69,
+        116,
+        130,
+        141,
+        156,
+        189,
+        204,
+        228
+      ],
+      "mean_dlogprob_token": 0.002623062528562592,
+      "masked_slot_hits": 163
+    },
+    {
+      "layer": 5,
+      "chunk": 2,
+      "experts": [
+        16,
+        30,
+        34,
+        37,
+        203,
+        209,
+        211,
+        216
+      ],
+      "mean_dlogprob_token": 0.002576234735897742,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 30,
+      "chunk": 10,
+      "experts": [
+        28,
+        40,
+        62,
+        98,
+        120,
+        193,
+        233,
+        239
+      ],
+      "mean_dlogprob_token": 0.0025541643175523987,
+      "masked_slot_hits": 31
+    },
+    {
+      "layer": 28,
+      "chunk": 8,
+      "experts": [
+        36,
+        84,
+        143,
+        184,
+        192,
+        206,
+        224,
+        239
+      ],
+      "mean_dlogprob_token": 0.0025521878042127355,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 11,
+      "chunk": 11,
+      "experts": [
+        11,
+        34,
+        76,
+        90,
+        148,
+        169,
+        183,
+        199
+      ],
+      "mean_dlogprob_token": 0.0024991337185689133,
+      "masked_slot_hits": 38
+    },
+    {
+      "layer": 1,
+      "chunk": 2,
+      "experts": [
+        69,
+        74,
+        84,
+        114,
+        136,
+        161,
+        207,
+        212
+      ],
+      "mean_dlogprob_token": 0.0024845278070637633,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 18,
+      "chunk": 6,
+      "experts": [
+        9,
+        40,
+        95,
+        104,
+        109,
+        110,
+        150,
+        216
+      ],
+      "mean_dlogprob_token": 0.002483381265847129,
+      "masked_slot_hits": 26
+    },
+    {
+      "layer": 22,
+      "chunk": 6,
+      "experts": [
+        13,
+        18,
+        27,
+        33,
+        55,
+        96,
+        106,
+        143
+      ],
+      "mean_dlogprob_token": 0.0023962677169038216,
+      "masked_slot_hits": 40
+    },
+    {
+      "layer": 10,
+      "chunk": 4,
+      "experts": [
+        18,
+        33,
+        105,
+        138,
+        151,
+        152,
+        160,
+        202
+      ],
+      "mean_dlogprob_token": 0.0023609962993829114,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 21,
+      "chunk": 10,
+      "experts": [
+        12,
+        38,
+        83,
+        143,
+        162,
+        179,
+        220,
+        230
+      ],
+      "mean_dlogprob_token": 0.0023590961874040417,
+      "masked_slot_hits": 39
+    },
+    {
+      "layer": 6,
+      "chunk": 6,
+      "experts": [
+        23,
+        48,
+        67,
+        95,
+        104,
+        179,
+        221,
+        236
+      ],
+      "mean_dlogprob_token": 0.0023437381830193615,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 6,
+      "chunk": 7,
+      "experts": [
+        88,
+        111,
+        140,
+        152,
+        155,
+        162,
+        216,
+        222
+      ],
+      "mean_dlogprob_token": 0.0023383407326269534,
+      "masked_slot_hits": 42
+    },
+    {
+      "layer": 17,
+      "chunk": 4,
+      "experts": [
+        6,
+        34,
+        79,
+        97,
+        131,
+        194,
+        207,
+        247
+      ],
+      "mean_dlogprob_token": 0.002320106743704642,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 7,
+      "chunk": 1,
+      "experts": [
+        48,
+        77,
+        82,
+        107,
+        114,
+        121,
+        152,
+        198
+      ],
+      "mean_dlogprob_token": 0.0023100357993826037,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 33,
+      "chunk": 5,
+      "experts": [
+        24,
+        66,
+        79,
+        145,
+        215,
+        233,
+        245,
+        246
+      ],
+      "mean_dlogprob_token": 0.0023058318180959603,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 27,
+      "chunk": 3,
+      "experts": [
+        29,
+        39,
+        47,
+        107,
+        141,
+        163,
+        209,
+        219
+      ],
+      "mean_dlogprob_token": 0.0022433714011640404,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 1,
+      "chunk": 10,
+      "experts": [
+        9,
+        28,
+        61,
+        113,
+        127,
+        144,
+        190,
+        241
+      ],
+      "mean_dlogprob_token": 0.0022377361142966734,
+      "masked_slot_hits": 173
+    },
+    {
+      "layer": 10,
+      "chunk": 8,
+      "experts": [
+        3,
+        39,
+        54,
+        60,
+        126,
+        158,
+        197,
+        224
+      ],
+      "mean_dlogprob_token": 0.002201083228101197,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 26,
+      "chunk": 3,
+      "experts": [
+        80,
+        128,
+        135,
+        161,
+        170,
+        208,
+        228,
+        237
+      ],
+      "mean_dlogprob_token": 0.0021906722395215183,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 23,
+      "chunk": 7,
+      "experts": [
+        13,
+        40,
+        82,
+        155,
+        165,
+        171,
+        175,
+        212
+      ],
+      "mean_dlogprob_token": 0.0020956313992428477,
+      "masked_slot_hits": 65
+    },
+    {
+      "layer": 34,
+      "chunk": 7,
+      "experts": [
+        24,
+        65,
+        129,
+        170,
+        209,
+        218,
+        243,
+        254
+      ],
+      "mean_dlogprob_token": 0.002049032411839846,
+      "masked_slot_hits": 30
+    },
+    {
+      "layer": 17,
+      "chunk": 6,
+      "experts": [
+        4,
+        69,
+        111,
+        116,
+        209,
+        217,
+        251,
+        254
+      ],
+      "mean_dlogprob_token": 0.001986962753107946,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 25,
+      "chunk": 10,
+      "experts": [
+        7,
+        36,
+        79,
+        162,
+        170,
+        196,
+        235,
+        246
+      ],
+      "mean_dlogprob_token": 0.0019583161041127894,
+      "masked_slot_hits": 44
+    },
+    {
+      "layer": 16,
+      "chunk": 1,
+      "experts": [
+        17,
+        19,
+        97,
+        109,
+        128,
+        139,
+        148,
+        216
+      ],
+      "mean_dlogprob_token": 0.0019412973524595145,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 5,
+      "chunk": 10,
+      "experts": [
+        97,
+        102,
+        155,
+        175,
+        181,
+        182,
+        225,
+        238
+      ],
+      "mean_dlogprob_token": 0.0019046008066929687,
+      "masked_slot_hits": 68
+    },
+    {
+      "layer": 22,
+      "chunk": 11,
+      "experts": [
+        22,
+        29,
+        71,
+        110,
+        166,
+        193,
+        217,
+        238
+      ],
+      "mean_dlogprob_token": 0.0018661943367987988,
+      "masked_slot_hits": 73
+    },
+    {
+      "layer": 23,
+      "chunk": 4,
+      "experts": [
+        31,
+        43,
+        94,
+        124,
+        139,
+        178,
+        211,
+        234
+      ],
+      "mean_dlogprob_token": 0.0018609672633829177,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 16,
+      "chunk": 2,
+      "experts": [
+        11,
+        30,
+        52,
+        76,
+        83,
+        108,
+        118,
+        135
+      ],
+      "mean_dlogprob_token": 0.001847337190156395,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 25,
+      "chunk": 9,
+      "experts": [
+        4,
+        163,
+        189,
+        191,
+        205,
+        216,
+        227,
+        253
+      ],
+      "mean_dlogprob_token": 0.0018023238062596647,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 30,
+      "chunk": 8,
+      "experts": [
+        14,
+        46,
+        56,
+        64,
+        74,
+        77,
+        182,
+        189
+      ],
+      "mean_dlogprob_token": 0.0017947740453356786,
+      "masked_slot_hits": 54
+    },
+    {
+      "layer": 13,
+      "chunk": 5,
+      "experts": [
+        55,
+        65,
+        109,
+        187,
+        190,
+        193,
+        225,
+        242
+      ],
+      "mean_dlogprob_token": 0.0017827002710566475,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 7,
+      "chunk": 0,
+      "experts": [
+        0,
+        53,
+        97,
+        115,
+        124,
+        153,
+        173,
+        196
+      ],
+      "mean_dlogprob_token": 0.00174775351115386,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 5,
+      "chunk": 1,
+      "experts": [
+        75,
+        92,
+        118,
+        140,
+        179,
+        199,
+        219,
+        246
+      ],
+      "mean_dlogprob_token": 0.0017473788902861997,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 20,
+      "chunk": 10,
+      "experts": [
+        63,
+        73,
+        106,
+        129,
+        154,
+        196,
+        221,
+        236
+      ],
+      "mean_dlogprob_token": 0.0017249522361453273,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 4,
+      "chunk": 6,
+      "experts": [
+        11,
+        30,
+        48,
+        82,
+        85,
+        93,
+        147,
+        173
+      ],
+      "mean_dlogprob_token": 0.0016460397695476914,
+      "masked_slot_hits": 62
+    },
+    {
+      "layer": 18,
+      "chunk": 4,
+      "experts": [
+        8,
+        46,
+        48,
+        132,
+        210,
+        222,
+        243,
+        246
+      ],
+      "mean_dlogprob_token": 0.0016354396956073103,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 11,
+      "chunk": 2,
+      "experts": [
+        23,
+        26,
+        35,
+        65,
+        77,
+        83,
+        110,
+        177
+      ],
+      "mean_dlogprob_token": 0.0016122584929689765,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 35,
+      "chunk": 8,
+      "experts": [
+        32,
+        56,
+        75,
+        91,
+        108,
+        127,
+        161,
+        234
+      ],
+      "mean_dlogprob_token": 0.0016099524966470824,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 20,
+      "chunk": 4,
+      "experts": [
+        30,
+        54,
+        55,
+        84,
+        119,
+        136,
+        170,
+        228
+      ],
+      "mean_dlogprob_token": 0.001586363313435868,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 24,
+      "chunk": 7,
+      "experts": [
+        64,
+        72,
+        76,
+        112,
+        122,
+        218,
+        230,
+        234
+      ],
+      "mean_dlogprob_token": 0.0015842449874980957,
+      "masked_slot_hits": 56
+    },
+    {
+      "layer": 32,
+      "chunk": 4,
+      "experts": [
+        108,
+        122,
+        176,
+        177,
+        232,
+        233,
+        249,
+        253
+      ],
+      "mean_dlogprob_token": 0.0015841088386601143,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 30,
+      "chunk": 6,
+      "experts": [
+        48,
+        67,
+        146,
+        167,
+        194,
+        241,
+        242,
+        243
+      ],
+      "mean_dlogprob_token": 0.001579090245286352,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 27,
+      "chunk": 10,
+      "experts": [
+        20,
+        36,
+        68,
+        132,
+        234,
+        235,
+        237,
+        239
+      ],
+      "mean_dlogprob_token": 0.0015605561065967777,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 15,
+      "chunk": 6,
+      "experts": [
+        90,
+        113,
+        140,
+        156,
+        190,
+        208,
+        212,
+        230
+      ],
+      "mean_dlogprob_token": 0.0015516274324909318,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 24,
+      "chunk": 0,
+      "experts": [
+        25,
+        86,
+        130,
+        152,
+        162,
+        182,
+        236,
+        245
+      ],
+      "mean_dlogprob_token": 0.0015342598817369435,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 13,
+      "chunk": 10,
+      "experts": [
+        57,
+        63,
+        94,
+        185,
+        205,
+        214,
+        215,
+        253
+      ],
+      "mean_dlogprob_token": 0.0015303775326174218,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 1,
+      "chunk": 4,
+      "experts": [
+        12,
+        78,
+        99,
+        106,
+        110,
+        117,
+        176,
+        246
+      ],
+      "mean_dlogprob_token": 0.0015244758952785986,
+      "masked_slot_hits": 52
+    },
+    {
+      "layer": 21,
+      "chunk": 11,
+      "experts": [
+        17,
+        99,
+        141,
+        153,
+        195,
+        219,
+        236,
+        253
+      ],
+      "mean_dlogprob_token": 0.001522873698377225,
+      "masked_slot_hits": 46
+    },
+    {
+      "layer": 29,
+      "chunk": 8,
+      "experts": [
+        43,
+        47,
+        53,
+        59,
+        161,
+        180,
+        194,
+        254
+      ],
+      "mean_dlogprob_token": 0.0014681844439579095,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 25,
+      "chunk": 3,
+      "experts": [
+        17,
+        53,
+        68,
+        123,
+        125,
+        144,
+        198,
+        213
+      ],
+      "mean_dlogprob_token": 0.001435773609955504,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 8,
+      "chunk": 7,
+      "experts": [
+        19,
+        26,
+        106,
+        114,
+        140,
+        146,
+        214,
+        236
+      ],
+      "mean_dlogprob_token": 0.0014329150026242132,
+      "masked_slot_hits": 32
+    },
+    {
+      "layer": 8,
+      "chunk": 10,
+      "experts": [
+        66,
+        75,
+        94,
+        119,
+        144,
+        149,
+        244,
+        252
+      ],
+      "mean_dlogprob_token": 0.0014085249031268177,
+      "masked_slot_hits": 53
+    },
+    {
+      "layer": 31,
+      "chunk": 8,
+      "experts": [
+        9,
+        48,
+        52,
+        56,
+        78,
+        122,
+        169,
+        217
+      ],
+      "mean_dlogprob_token": 0.001370839322832218,
+      "masked_slot_hits": 50
+    },
+    {
+      "layer": 37,
+      "chunk": 9,
+      "experts": [
+        6,
+        53,
+        68,
+        114,
+        201,
+        212,
+        221,
+        224
+      ],
+      "mean_dlogprob_token": 0.001362551827999603,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 17,
+      "chunk": 7,
+      "experts": [
+        2,
+        53,
+        63,
+        92,
+        99,
+        113,
+        186,
+        191
+      ],
+      "mean_dlogprob_token": 0.001318095373790129,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 28,
+      "chunk": 2,
+      "experts": [
+        1,
+        44,
+        108,
+        109,
+        118,
+        139,
+        140,
+        244
+      ],
+      "mean_dlogprob_token": 0.0013142364987288602,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 29,
+      "chunk": 2,
+      "experts": [
+        8,
+        83,
+        85,
+        107,
+        138,
+        193,
+        224,
+        240
+      ],
+      "mean_dlogprob_token": 0.0012676998294409714,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 9,
+      "chunk": 9,
+      "experts": [
+        48,
+        56,
+        65,
+        99,
+        112,
+        141,
+        153,
+        192
+      ],
+      "mean_dlogprob_token": 0.0012576234439620748,
+      "masked_slot_hits": 37
+    },
+    {
+      "layer": 14,
+      "chunk": 0,
+      "experts": [
+        74,
+        100,
+        121,
+        129,
+        152,
+        168,
+        192,
+        233
+      ],
+      "mean_dlogprob_token": 0.0012523557415988762,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 10,
+      "chunk": 5,
+      "experts": [
+        15,
+        29,
+        69,
+        74,
+        90,
+        136,
+        148,
+        188
+      ],
+      "mean_dlogprob_token": 0.001235226885000884,
+      "masked_slot_hits": 37
+    },
+    {
+      "layer": 14,
+      "chunk": 7,
+      "experts": [
+        1,
+        55,
+        89,
+        91,
+        120,
+        184,
+        246,
+        254
+      ],
+      "mean_dlogprob_token": 0.0012311958389545907,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 15,
+      "chunk": 2,
+      "experts": [
+        29,
+        59,
+        91,
+        105,
+        160,
+        167,
+        202,
+        211
+      ],
+      "mean_dlogprob_token": 0.0011384937661205186,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 32,
+      "chunk": 1,
+      "experts": [
+        23,
+        36,
+        100,
+        167,
+        188,
+        189,
+        193,
+        225
+      ],
+      "mean_dlogprob_token": 0.0011300642945570871,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 28,
+      "chunk": 4,
+      "experts": [
+        37,
+        69,
+        79,
+        98,
+        142,
+        176,
+        198,
+        207
+      ],
+      "mean_dlogprob_token": 0.0011280243107343324,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 33,
+      "chunk": 6,
+      "experts": [
+        25,
+        42,
+        46,
+        53,
+        70,
+        109,
+        112,
+        131
+      ],
+      "mean_dlogprob_token": 0.0011135297545479261,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 12,
+      "chunk": 4,
+      "experts": [
+        27,
+        29,
+        45,
+        112,
+        148,
+        185,
+        200,
+        227
+      ],
+      "mean_dlogprob_token": 0.001103135396988364,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 25,
+      "chunk": 2,
+      "experts": [
+        24,
+        69,
+        85,
+        150,
+        179,
+        188,
+        223,
+        250
+      ],
+      "mean_dlogprob_token": 0.001098091977837612,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 5,
+      "chunk": 0,
+      "experts": [
+        26,
+        39,
+        119,
+        126,
+        133,
+        156,
+        233,
+        241
+      ],
+      "mean_dlogprob_token": 0.0010768039828690235,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 4,
+      "chunk": 3,
+      "experts": [
+        16,
+        22,
+        34,
+        40,
+        41,
+        46,
+        80,
+        162
+      ],
+      "mean_dlogprob_token": 0.0010674530913092894,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 4,
+      "chunk": 2,
+      "experts": [
+        26,
+        56,
+        59,
+        77,
+        78,
+        177,
+        223,
+        238
+      ],
+      "mean_dlogprob_token": 0.0010646188848113525,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 32,
+      "chunk": 9,
+      "experts": [
+        1,
+        5,
+        16,
+        29,
+        30,
+        84,
+        154,
+        213
+      ],
+      "mean_dlogprob_token": 0.0010627023033382699,
+      "masked_slot_hits": 52
+    },
+    {
+      "layer": 24,
+      "chunk": 4,
+      "experts": [
+        48,
+        90,
+        141,
+        183,
+        200,
+        227,
+        229,
+        243
+      ],
+      "mean_dlogprob_token": 0.0010283330630045384,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 28,
+      "chunk": 3,
+      "experts": [
+        7,
+        94,
+        115,
+        131,
+        135,
+        216,
+        240,
+        241
+      ],
+      "mean_dlogprob_token": 0.0010266007848258596,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 31,
+      "chunk": 6,
+      "experts": [
+        95,
+        105,
+        119,
+        123,
+        126,
+        155,
+        160,
+        254
+      ],
+      "mean_dlogprob_token": 0.0010184090460825246,
+      "masked_slot_hits": 30
+    },
+    {
+      "layer": 13,
+      "chunk": 3,
+      "experts": [
+        59,
+        68,
+        69,
+        123,
+        130,
+        136,
+        144,
+        179
+      ],
+      "mean_dlogprob_token": 0.0010011003787440131,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 5,
+      "chunk": 5,
+      "experts": [
+        113,
+        116,
+        124,
+        129,
+        152,
+        168,
+        187,
+        226
+      ],
+      "mean_dlogprob_token": 0.0009966132784029469,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 0,
+      "chunk": 7,
+      "experts": [
+        9,
+        42,
+        52,
+        61,
+        110,
+        155,
+        178,
+        244
+      ],
+      "mean_dlogprob_token": 0.000959400775728092,
+      "masked_slot_hits": 153
+    },
+    {
+      "layer": 37,
+      "chunk": 3,
+      "experts": [
+        10,
+        46,
+        136,
+        188,
+        203,
+        235,
+        249,
+        251
+      ],
+      "mean_dlogprob_token": 0.0009476825443925918,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 38,
+      "chunk": 4,
+      "experts": [
+        81,
+        113,
+        160,
+        181,
+        194,
+        226,
+        227,
+        246
+      ],
+      "mean_dlogprob_token": 0.0009460290566494223,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 14,
+      "chunk": 5,
+      "experts": [
+        15,
+        58,
+        70,
+        98,
+        169,
+        188,
+        240,
+        248
+      ],
+      "mean_dlogprob_token": 0.0009357713934150524,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 32,
+      "chunk": 2,
+      "experts": [
+        0,
+        4,
+        45,
+        138,
+        164,
+        228,
+        234,
+        242
+      ],
+      "mean_dlogprob_token": 0.0009350333166366909,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 31,
+      "chunk": 10,
+      "experts": [
+        16,
+        17,
+        94,
+        134,
+        163,
+        174,
+        177,
+        236
+      ],
+      "mean_dlogprob_token": 0.000932803680067984,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 8,
+      "chunk": 2,
+      "experts": [
+        9,
+        14,
+        22,
+        90,
+        97,
+        211,
+        228,
+        254
+      ],
+      "mean_dlogprob_token": 0.0009301855670251769,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 25,
+      "chunk": 4,
+      "experts": [
+        8,
+        129,
+        133,
+        136,
+        177,
+        190,
+        225,
+        229
+      ],
+      "mean_dlogprob_token": 0.0009135437174476735,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 27,
+      "chunk": 7,
+      "experts": [
+        24,
+        111,
+        127,
+        157,
+        221,
+        222,
+        224,
+        232
+      ],
+      "mean_dlogprob_token": 0.0009054021975316573,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 0,
+      "chunk": 0,
+      "experts": [
+        0,
+        4,
+        20,
+        31,
+        90,
+        126,
+        152,
+        214
+      ],
+      "mean_dlogprob_token": 0.0008971230134005026,
+      "masked_slot_hits": 57
+    },
+    {
+      "layer": 28,
+      "chunk": 1,
+      "experts": [
+        3,
+        19,
+        30,
+        68,
+        76,
+        83,
+        97,
+        128
+      ],
+      "mean_dlogprob_token": 0.0008298375687445514,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 15,
+      "chunk": 1,
+      "experts": [
+        73,
+        122,
+        152,
+        161,
+        175,
+        176,
+        194,
+        251
+      ],
+      "mean_dlogprob_token": 0.0008288823300972581,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 30,
+      "chunk": 1,
+      "experts": [
+        22,
+        96,
+        107,
+        125,
+        140,
+        235,
+        246,
+        252
+      ],
+      "mean_dlogprob_token": 0.0008058902058110107,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 18,
+      "chunk": 0,
+      "experts": [
+        7,
+        29,
+        107,
+        125,
+        147,
+        200,
+        202,
+        242
+      ],
+      "mean_dlogprob_token": 0.0007980615846463479,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 34,
+      "chunk": 1,
+      "experts": [
+        3,
+        39,
+        71,
+        124,
+        135,
+        147,
+        174,
+        178
+      ],
+      "mean_dlogprob_token": 0.0007946153837110614,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 24,
+      "chunk": 2,
+      "experts": [
+        36,
+        37,
+        40,
+        109,
+        121,
+        129,
+        135,
+        156
+      ],
+      "mean_dlogprob_token": 0.0007926500966277672,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 23,
+      "chunk": 10,
+      "experts": [
+        56,
+        76,
+        120,
+        132,
+        196,
+        200,
+        215,
+        243
+      ],
+      "mean_dlogprob_token": 0.0007908546918811155,
+      "masked_slot_hits": 78
+    },
+    {
+      "layer": 34,
+      "chunk": 4,
+      "experts": [
+        41,
+        53,
+        60,
+        89,
+        125,
+        146,
+        189,
+        190
+      ],
+      "mean_dlogprob_token": 0.0007875139290263178,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 35,
+      "chunk": 10,
+      "experts": [
+        52,
+        65,
+        105,
+        115,
+        157,
+        204,
+        248,
+        250
+      ],
+      "mean_dlogprob_token": 0.0007845925620131311,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 22,
+      "chunk": 0,
+      "experts": [
+        89,
+        112,
+        131,
+        180,
+        181,
+        209,
+        221,
+        230
+      ],
+      "mean_dlogprob_token": 0.0007836129971110495,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 26,
+      "chunk": 2,
+      "experts": [
+        4,
+        34,
+        79,
+        114,
+        120,
+        151,
+        210,
+        222
+      ],
+      "mean_dlogprob_token": 0.0007499094717786647,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 8,
+      "chunk": 5,
+      "experts": [
+        82,
+        96,
+        134,
+        182,
+        198,
+        200,
+        218,
+        221
+      ],
+      "mean_dlogprob_token": 0.0007465757735189982,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 28,
+      "chunk": 9,
+      "experts": [
+        8,
+        12,
+        16,
+        127,
+        144,
+        157,
+        172,
+        175
+      ],
+      "mean_dlogprob_token": 0.0007131402334685788,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 6,
+      "chunk": 3,
+      "experts": [
+        32,
+        109,
+        158,
+        197,
+        205,
+        218,
+        233,
+        244
+      ],
+      "mean_dlogprob_token": 0.0007036861943561235,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 7,
+      "chunk": 4,
+      "experts": [
+        17,
+        84,
+        87,
+        100,
+        103,
+        130,
+        238,
+        252
+      ],
+      "mean_dlogprob_token": 0.0006943336229596753,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 3,
+      "chunk": 4,
+      "experts": [
+        23,
+        66,
+        99,
+        140,
+        180,
+        185,
+        208,
+        248
+      ],
+      "mean_dlogprob_token": 0.0006738112079736069,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 38,
+      "chunk": 8,
+      "experts": [
+        3,
+        15,
+        142,
+        165,
+        192,
+        198,
+        225,
+        238
+      ],
+      "mean_dlogprob_token": 0.0006713476795994211,
+      "masked_slot_hits": 38
+    },
+    {
+      "layer": 31,
+      "chunk": 5,
+      "experts": [
+        64,
+        117,
+        129,
+        165,
+        172,
+        176,
+        189,
+        192
+      ],
+      "mean_dlogprob_token": 0.0006603516330869752,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 17,
+      "chunk": 3,
+      "experts": [
+        93,
+        123,
+        138,
+        165,
+        195,
+        221,
+        227,
+        237
+      ],
+      "mean_dlogprob_token": 0.0006491241656476632,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 35,
+      "chunk": 9,
+      "experts": [
+        33,
+        51,
+        60,
+        140,
+        154,
+        159,
+        192,
+        195
+      ],
+      "mean_dlogprob_token": 0.0006307805342657957,
+      "masked_slot_hits": 37
+    },
+    {
+      "layer": 16,
+      "chunk": 8,
+      "experts": [
+        113,
+        115,
+        124,
+        129,
+        182,
+        191,
+        204,
+        225
+      ],
+      "mean_dlogprob_token": 0.0006307155425622213,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 21,
+      "chunk": 9,
+      "experts": [
+        13,
+        15,
+        48,
+        106,
+        118,
+        173,
+        174,
+        192
+      ],
+      "mean_dlogprob_token": 0.0005749290884038416,
+      "masked_slot_hits": 40
+    },
+    {
+      "layer": 5,
+      "chunk": 4,
+      "experts": [
+        17,
+        28,
+        38,
+        108,
+        125,
+        128,
+        173,
+        195
+      ],
+      "mean_dlogprob_token": 0.0005724673639031508,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 13,
+      "chunk": 0,
+      "experts": [
+        31,
+        39,
+        50,
+        90,
+        96,
+        186,
+        218,
+        223
+      ],
+      "mean_dlogprob_token": 0.0005533692528842948,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 18,
+      "chunk": 5,
+      "experts": [
+        12,
+        35,
+        167,
+        185,
+        194,
+        218,
+        228,
+        241
+      ],
+      "mean_dlogprob_token": 0.000551303371139511,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 23,
+      "chunk": 1,
+      "experts": [
+        6,
+        35,
+        83,
+        100,
+        182,
+        214,
+        227,
+        244
+      ],
+      "mean_dlogprob_token": 0.0004859417504121666,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 37,
+      "chunk": 11,
+      "experts": [
+        5,
+        12,
+        63,
+        125,
+        127,
+        170,
+        179,
+        218
+      ],
+      "mean_dlogprob_token": 0.0004833898372451628,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 29,
+      "chunk": 1,
+      "experts": [
+        52,
+        80,
+        81,
+        133,
+        136,
+        154,
+        179,
+        203
+      ],
+      "mean_dlogprob_token": 0.00048032259019237245,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 21,
+      "chunk": 2,
+      "experts": [
+        62,
+        64,
+        70,
+        93,
+        147,
+        159,
+        167,
+        181
+      ],
+      "mean_dlogprob_token": 0.0004694934468716383,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 32,
+      "chunk": 3,
+      "experts": [
+        67,
+        72,
+        118,
+        141,
+        145,
+        171,
+        207,
+        239
+      ],
+      "mean_dlogprob_token": 0.00046856176924414683,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 23,
+      "chunk": 2,
+      "experts": [
+        8,
+        38,
+        65,
+        77,
+        110,
+        166,
+        179,
+        217
+      ],
+      "mean_dlogprob_token": 0.00046714958079974167,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 34,
+      "chunk": 0,
+      "experts": [
+        35,
+        134,
+        145,
+        148,
+        156,
+        193,
+        221,
+        237
+      ],
+      "mean_dlogprob_token": 0.0004620325616997434,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 31,
+      "chunk": 4,
+      "experts": [
+        65,
+        76,
+        81,
+        98,
+        127,
+        171,
+        227,
+        232
+      ],
+      "mean_dlogprob_token": 0.00045771994518872816,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 4,
+      "chunk": 5,
+      "experts": [
+        18,
+        32,
+        84,
+        100,
+        111,
+        114,
+        134,
+        169
+      ],
+      "mean_dlogprob_token": 0.00044550291477207793,
+      "masked_slot_hits": 48
+    },
+    {
+      "layer": 15,
+      "chunk": 4,
+      "experts": [
+        43,
+        47,
+        100,
+        139,
+        141,
+        193,
+        219,
+        252
+      ],
+      "mean_dlogprob_token": 0.00043469438878673827,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 36,
+      "chunk": 2,
+      "experts": [
+        6,
+        38,
+        52,
+        114,
+        116,
+        146,
+        170,
+        182
+      ],
+      "mean_dlogprob_token": 0.0004310369331506081,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 35,
+      "chunk": 11,
+      "experts": [
+        0,
+        37,
+        90,
+        139,
+        194,
+        199,
+        221,
+        228
+      ],
+      "mean_dlogprob_token": 0.00042998840490326984,
+      "masked_slot_hits": 54
+    },
+    {
+      "layer": 38,
+      "chunk": 7,
+      "experts": [
+        14,
+        57,
+        60,
+        90,
+        126,
+        164,
+        171,
+        228
+      ],
+      "mean_dlogprob_token": 0.000411803132010391,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 39,
+      "chunk": 6,
+      "experts": [
+        84,
+        151,
+        170,
+        184,
+        187,
+        202,
+        207,
+        220
+      ],
+      "mean_dlogprob_token": 0.00039652446866966784,
+      "masked_slot_hits": 72
+    },
+    {
+      "layer": 15,
+      "chunk": 3,
+      "experts": [
+        8,
+        22,
+        75,
+        92,
+        129,
+        143,
+        209,
+        245
+      ],
+      "mean_dlogprob_token": 0.00036425031521503115,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 7,
+      "chunk": 9,
+      "experts": [
+        72,
+        126,
+        141,
+        143,
+        170,
+        178,
+        212,
+        217
+      ],
+      "mean_dlogprob_token": 0.0003612036380218342,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 32,
+      "chunk": 8,
+      "experts": [
+        44,
+        65,
+        68,
+        87,
+        121,
+        135,
+        198,
+        214
+      ],
+      "mean_dlogprob_token": 0.000357031498424476,
+      "masked_slot_hits": 50
+    },
+    {
+      "layer": 13,
+      "chunk": 6,
+      "experts": [
+        34,
+        58,
+        64,
+        82,
+        95,
+        233,
+        240,
+        249
+      ],
+      "mean_dlogprob_token": 0.0003563464406397543,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 23,
+      "chunk": 6,
+      "experts": [
+        0,
+        50,
+        105,
+        115,
+        163,
+        219,
+        252,
+        253
+      ],
+      "mean_dlogprob_token": 0.0003441755497988197,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 14,
+      "chunk": 9,
+      "experts": [
+        49,
+        94,
+        97,
+        110,
+        153,
+        155,
+        216,
+        232
+      ],
+      "mean_dlogprob_token": 0.00032881164418885334,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 33,
+      "chunk": 2,
+      "experts": [
+        8,
+        20,
+        48,
+        69,
+        76,
+        78,
+        123,
+        125
+      ],
+      "mean_dlogprob_token": 0.0003088902294621221,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 32,
+      "chunk": 5,
+      "experts": [
+        81,
+        94,
+        161,
+        203,
+        204,
+        215,
+        217,
+        243
+      ],
+      "mean_dlogprob_token": 0.0002959498997370247,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 8,
+      "chunk": 0,
+      "experts": [
+        31,
+        39,
+        51,
+        101,
+        166,
+        177,
+        226,
+        241
+      ],
+      "mean_dlogprob_token": 0.0002835998893715441,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 38,
+      "chunk": 3,
+      "experts": [
+        1,
+        66,
+        89,
+        107,
+        116,
+        153,
+        167,
+        208
+      ],
+      "mean_dlogprob_token": 0.000277893432212295,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 36,
+      "chunk": 11,
+      "experts": [
+        16,
+        25,
+        47,
+        104,
+        135,
+        220,
+        229,
+        232
+      ],
+      "mean_dlogprob_token": 0.00026581096984390484,
+      "masked_slot_hits": 38
+    },
+    {
+      "layer": 8,
+      "chunk": 3,
+      "experts": [
+        13,
+        55,
+        60,
+        70,
+        87,
+        131,
+        189,
+        227
+      ],
+      "mean_dlogprob_token": 0.00025505785833956907,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 24,
+      "chunk": 5,
+      "experts": [
+        49,
+        57,
+        95,
+        114,
+        185,
+        195,
+        215,
+        231
+      ],
+      "mean_dlogprob_token": 0.0002542665501659158,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 9,
+      "chunk": 1,
+      "experts": [
+        51,
+        64,
+        80,
+        91,
+        159,
+        167,
+        175,
+        238
+      ],
+      "mean_dlogprob_token": 0.00025235726207029074,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 10,
+      "chunk": 3,
+      "experts": [
+        6,
+        11,
+        55,
+        58,
+        127,
+        149,
+        200,
+        213
+      ],
+      "mean_dlogprob_token": 0.00023021380275167758,
+      "masked_slot_hits": 25
+    },
+    {
+      "layer": 0,
+      "chunk": 5,
+      "experts": [
+        1,
+        73,
+        77,
+        103,
+        131,
+        154,
+        213,
+        255
+      ],
+      "mean_dlogprob_token": 0.00022929002746696625,
+      "masked_slot_hits": 118
+    },
+    {
+      "layer": 37,
+      "chunk": 4,
+      "experts": [
+        9,
+        29,
+        33,
+        87,
+        131,
+        172,
+        222,
+        231
+      ],
+      "mean_dlogprob_token": 0.00022160272783366963,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 29,
+      "chunk": 6,
+      "experts": [
+        51,
+        63,
+        67,
+        69,
+        184,
+        233,
+        234,
+        239
+      ],
+      "mean_dlogprob_token": 0.00021560638106166152,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 26,
+      "chunk": 11,
+      "experts": [
+        8,
+        68,
+        84,
+        87,
+        102,
+        191,
+        245,
+        252
+      ],
+      "mean_dlogprob_token": 0.00021446359629972989,
+      "masked_slot_hits": 42
+    },
+    {
+      "layer": 22,
+      "chunk": 1,
+      "experts": [
+        2,
+        39,
+        67,
+        153,
+        186,
+        237,
+        239,
+        254
+      ],
+      "mean_dlogprob_token": 0.00021400106197688729,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 25,
+      "chunk": 5,
+      "experts": [
+        11,
+        23,
+        65,
+        105,
+        143,
+        180,
+        184,
+        249
+      ],
+      "mean_dlogprob_token": 0.00020956661592208548,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 12,
+      "chunk": 1,
+      "experts": [
+        61,
+        109,
+        162,
+        182,
+        202,
+        204,
+        245,
+        246
+      ],
+      "mean_dlogprob_token": 0.0001929714471771149,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 0,
+      "chunk": 3,
+      "experts": [
+        12,
+        16,
+        17,
+        26,
+        71,
+        137,
+        220,
+        230
+      ],
+      "mean_dlogprob_token": 0.0001729399564238676,
+      "masked_slot_hits": 140
+    },
+    {
+      "layer": 39,
+      "chunk": 5,
+      "experts": [
+        41,
+        53,
+        57,
+        76,
+        104,
+        150,
+        157,
+        234
+      ],
+      "mean_dlogprob_token": 0.00016586505807936192,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 17,
+      "chunk": 0,
+      "experts": [
+        31,
+        40,
+        52,
+        70,
+        75,
+        81,
+        82,
+        179
+      ],
+      "mean_dlogprob_token": 0.00016175201017176732,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 3,
+      "chunk": 9,
+      "experts": [
+        22,
+        33,
+        86,
+        114,
+        122,
+        173,
+        250,
+        254
+      ],
+      "mean_dlogprob_token": 0.00015814175094419625,
+      "masked_slot_hits": 62
+    },
+    {
+      "layer": 5,
+      "chunk": 11,
+      "experts": [
+        72,
+        99,
+        134,
+        141,
+        221,
+        234,
+        244,
+        245
+      ],
+      "mean_dlogprob_token": 0.00013525132374869742,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 22,
+      "chunk": 7,
+      "experts": [
+        23,
+        28,
+        74,
+        126,
+        155,
+        170,
+        197,
+        214
+      ],
+      "mean_dlogprob_token": 0.00012607752614712808,
+      "masked_slot_hits": 45
+    },
+    {
+      "layer": 27,
+      "chunk": 5,
+      "experts": [
+        59,
+        62,
+        106,
+        138,
+        192,
+        212,
+        245,
+        246
+      ],
+      "mean_dlogprob_token": 0.00012296676177303567,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 35,
+      "chunk": 5,
+      "experts": [
+        6,
+        80,
+        118,
+        131,
+        207,
+        230,
+        233,
+        251
+      ],
+      "mean_dlogprob_token": 0.00011857973731821403,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 39,
+      "chunk": 7,
+      "experts": [
+        65,
+        93,
+        144,
+        146,
+        196,
+        229,
+        233,
+        236
+      ],
+      "mean_dlogprob_token": 0.00010302698356046136,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 1,
+      "chunk": 7,
+      "experts": [
+        4,
+        7,
+        35,
+        104,
+        105,
+        149,
+        220,
+        235
+      ],
+      "mean_dlogprob_token": 4.763599144297359e-05,
+      "masked_slot_hits": 121
+    },
+    {
+      "layer": 39,
+      "chunk": 9,
+      "experts": [
+        19,
+        97,
+        100,
+        140,
+        193,
+        204,
+        206,
+        247
+      ],
+      "mean_dlogprob_token": 2.999621574417688e-05,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 8,
+      "chunk": 8,
+      "experts": [
+        67,
+        102,
+        153,
+        195,
+        199,
+        209,
+        230,
+        248
+      ],
+      "mean_dlogprob_token": 2.4859683435352053e-05,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 18,
+      "chunk": 3,
+      "experts": [
+        14,
+        41,
+        49,
+        96,
+        140,
+        206,
+        247,
+        252
+      ],
+      "mean_dlogprob_token": 2.2660228751192335e-05,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 8,
+      "chunk": 1,
+      "experts": [
+        2,
+        5,
+        30,
+        109,
+        155,
+        158,
+        170,
+        250
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 9,
+      "chunk": 0,
+      "experts": [
+        33,
+        46,
+        50,
+        76,
+        89,
+        181,
+        190,
+        249
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 12,
+      "chunk": 0,
+      "experts": [
+        25,
+        28,
+        75,
+        86,
+        130,
+        152,
+        156,
+        236
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 14,
+      "chunk": 1,
+      "experts": [
+        3,
+        23,
+        62,
+        78,
+        79,
+        85,
+        108,
+        151
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 16,
+      "chunk": 0,
+      "experts": [
+        27,
+        68,
+        77,
+        86,
+        94,
+        125,
+        142,
+        251
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 20,
+      "chunk": 0,
+      "experts": [
+        2,
+        31,
+        39,
+        87,
+        109,
+        166,
+        177,
+        254
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 21,
+      "chunk": 0,
+      "experts": [
+        33,
+        49,
+        51,
+        97,
+        150,
+        175,
+        190,
+        249
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 33,
+      "chunk": 0,
+      "experts": [
+        14,
+        65,
+        80,
+        120,
+        148,
+        163,
+        199,
+        216
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 33,
+      "chunk": 3,
+      "experts": [
+        1,
+        10,
+        124,
+        150,
+        194,
+        226,
+        243,
+        249
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 36,
+      "chunk": 1,
+      "experts": [
+        71,
+        175,
+        180,
+        183,
+        184,
+        197,
+        200,
+        209
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 37,
+      "chunk": 1,
+      "experts": [
+        40,
+        41,
+        47,
+        155,
+        157,
+        191,
+        223,
+        236
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 37,
+      "chunk": 2,
+      "experts": [
+        0,
+        30,
+        139,
+        167,
+        168,
+        189,
+        230,
+        253
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 39,
+      "chunk": 0,
+      "experts": [
+        4,
+        49,
+        51,
+        71,
+        102,
+        111,
+        119,
+        143
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 0
+    },
+    {
+      "layer": 39,
+      "chunk": 2,
+      "experts": [
+        28,
+        94,
+        131,
+        156,
+        172,
+        194,
+        199,
+        232
+      ],
+      "mean_dlogprob_token": 0.0,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 39,
+      "chunk": 3,
+      "experts": [
+        26,
+        114,
+        126,
+        135,
+        152,
+        160,
+        185,
+        216
+      ],
+      "mean_dlogprob_token": -3.2121988624567166e-07,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 33,
+      "chunk": 1,
+      "experts": [
+        34,
+        45,
+        57,
+        100,
+        141,
+        169,
+        175,
+        221
+      ],
+      "mean_dlogprob_token": -7.809962880855892e-06,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 11,
+      "chunk": 0,
+      "experts": [
+        1,
+        21,
+        67,
+        119,
+        232,
+        240,
+        244,
+        245
+      ],
+      "mean_dlogprob_token": -1.3772398233413696e-05,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 39,
+      "chunk": 1,
+      "experts": [
+        43,
+        54,
+        64,
+        79,
+        82,
+        121,
+        124,
+        214
+      ],
+      "mean_dlogprob_token": -2.0042993128299713e-05,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 39,
+      "chunk": 10,
+      "experts": [
+        6,
+        48,
+        86,
+        109,
+        149,
+        169,
+        188,
+        249
+      ],
+      "mean_dlogprob_token": -3.0925157858519015e-05,
+      "masked_slot_hits": 65
+    },
+    {
+      "layer": 16,
+      "chunk": 3,
+      "experts": [
+        7,
+        37,
+        62,
+        84,
+        131,
+        132,
+        140,
+        198
+      ],
+      "mean_dlogprob_token": -4.656828969018534e-05,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 30,
+      "chunk": 2,
+      "experts": [
+        36,
+        76,
+        78,
+        136,
+        147,
+        150,
+        178,
+        248
+      ],
+      "mean_dlogprob_token": -5.368793063098565e-05,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 36,
+      "chunk": 5,
+      "experts": [
+        15,
+        41,
+        84,
+        97,
+        132,
+        157,
+        215,
+        216
+      ],
+      "mean_dlogprob_token": -5.880243861611234e-05,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 26,
+      "chunk": 7,
+      "experts": [
+        62,
+        99,
+        130,
+        176,
+        177,
+        219,
+        246,
+        250
+      ],
+      "mean_dlogprob_token": -6.176771802035574e-05,
+      "masked_slot_hits": 49
+    },
+    {
+      "layer": 35,
+      "chunk": 6,
+      "experts": [
+        31,
+        123,
+        166,
+        169,
+        182,
+        193,
+        208,
+        222
+      ],
+      "mean_dlogprob_token": -6.291729278018465e-05,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 30,
+      "chunk": 4,
+      "experts": [
+        8,
+        12,
+        65,
+        100,
+        157,
+        222,
+        238,
+        249
+      ],
+      "mean_dlogprob_token": -6.755804861313663e-05,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 17,
+      "chunk": 2,
+      "experts": [
+        55,
+        80,
+        107,
+        154,
+        159,
+        181,
+        184,
+        224
+      ],
+      "mean_dlogprob_token": -7.263215957209468e-05,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 38,
+      "chunk": 1,
+      "experts": [
+        29,
+        38,
+        56,
+        85,
+        172,
+        221,
+        229,
+        240
+      ],
+      "mean_dlogprob_token": -7.292809459613636e-05,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 34,
+      "chunk": 11,
+      "experts": [
+        29,
+        73,
+        131,
+        136,
+        140,
+        153,
+        233,
+        251
+      ],
+      "mean_dlogprob_token": -8.365982212144019e-05,
+      "masked_slot_hits": 69
+    },
+    {
+      "layer": 33,
+      "chunk": 4,
+      "experts": [
+        3,
+        26,
+        31,
+        119,
+        178,
+        193,
+        204,
+        230
+      ],
+      "mean_dlogprob_token": -0.00012126010551583022,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 37,
+      "chunk": 8,
+      "experts": [
+        44,
+        54,
+        70,
+        91,
+        98,
+        120,
+        140,
+        195
+      ],
+      "mean_dlogprob_token": -0.00013233212575869402,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 38,
+      "chunk": 6,
+      "experts": [
+        32,
+        34,
+        54,
+        186,
+        199,
+        211,
+        216,
+        247
+      ],
+      "mean_dlogprob_token": -0.00015262656052072998,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 27,
+      "chunk": 4,
+      "experts": [
+        92,
+        136,
+        144,
+        160,
+        164,
+        167,
+        208,
+        220
+      ],
+      "mean_dlogprob_token": -0.00015730809284875136,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 26,
+      "chunk": 1,
+      "experts": [
+        2,
+        13,
+        25,
+        74,
+        100,
+        168,
+        186,
+        221
+      ],
+      "mean_dlogprob_token": -0.00015829570475034416,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 5,
+      "chunk": 3,
+      "experts": [
+        54,
+        73,
+        91,
+        101,
+        105,
+        154,
+        227,
+        237
+      ],
+      "mean_dlogprob_token": -0.00018050857761409134,
+      "masked_slot_hits": 19
+    },
+    {
+      "layer": 34,
+      "chunk": 10,
+      "experts": [
+        83,
+        106,
+        107,
+        137,
+        151,
+        194,
+        224,
+        229
+      ],
+      "mean_dlogprob_token": -0.0001810995263440418,
+      "masked_slot_hits": 60
+    },
+    {
+      "layer": 23,
+      "chunk": 11,
+      "experts": [
+        90,
+        104,
+        118,
+        144,
+        169,
+        190,
+        192,
+        230
+      ],
+      "mean_dlogprob_token": -0.0002200552793745203,
+      "masked_slot_hits": 134
+    },
+    {
+      "layer": 19,
+      "chunk": 8,
+      "experts": [
+        64,
+        105,
+        124,
+        126,
+        141,
+        158,
+        159,
+        244
+      ],
+      "mean_dlogprob_token": -0.0002213381139881676,
+      "masked_slot_hits": 53
+    },
+    {
+      "layer": 13,
+      "chunk": 8,
+      "experts": [
+        26,
+        77,
+        108,
+        133,
+        150,
+        191,
+        197,
+        246
+      ],
+      "mean_dlogprob_token": -0.00023147706269810442,
+      "masked_slot_hits": 51
+    },
+    {
+      "layer": 38,
+      "chunk": 5,
+      "experts": [
+        40,
+        53,
+        76,
+        83,
+        114,
+        157,
+        174,
+        230
+      ],
+      "mean_dlogprob_token": -0.0002325649938237362,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 22,
+      "chunk": 5,
+      "experts": [
+        3,
+        6,
+        45,
+        127,
+        136,
+        164,
+        179,
+        200
+      ],
+      "mean_dlogprob_token": -0.00023438761763827642,
+      "masked_slot_hits": 31
+    },
+    {
+      "layer": 33,
+      "chunk": 11,
+      "experts": [
+        2,
+        22,
+        99,
+        142,
+        153,
+        218,
+        223,
+        252
+      ],
+      "mean_dlogprob_token": -0.00025380328794799567,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 33,
+      "chunk": 9,
+      "experts": [
+        60,
+        85,
+        87,
+        110,
+        115,
+        172,
+        242,
+        248
+      ],
+      "mean_dlogprob_token": -0.0002570893444504563,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 39,
+      "chunk": 4,
+      "experts": [
+        0,
+        3,
+        33,
+        59,
+        61,
+        130,
+        153,
+        212
+      ],
+      "mean_dlogprob_token": -0.0002864631242118776,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 36,
+      "chunk": 6,
+      "experts": [
+        53,
+        54,
+        81,
+        113,
+        123,
+        130,
+        137,
+        156
+      ],
+      "mean_dlogprob_token": -0.000292206264930428,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 34,
+      "chunk": 2,
+      "experts": [
+        7,
+        78,
+        111,
+        117,
+        127,
+        139,
+        200,
+        242
+      ],
+      "mean_dlogprob_token": -0.00029647435803781264,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 26,
+      "chunk": 6,
+      "experts": [
+        3,
+        27,
+        45,
+        58,
+        98,
+        173,
+        223,
+        240
+      ],
+      "mean_dlogprob_token": -0.00030422388372297604,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 28,
+      "chunk": 5,
+      "experts": [
+        6,
+        11,
+        29,
+        34,
+        62,
+        64,
+        195,
+        242
+      ],
+      "mean_dlogprob_token": -0.00030622394779822315,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 14,
+      "chunk": 2,
+      "experts": [
+        13,
+        25,
+        170,
+        195,
+        210,
+        221,
+        237,
+        243
+      ],
+      "mean_dlogprob_token": -0.0003074046071560588,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 38,
+      "chunk": 0,
+      "experts": [
+        26,
+        51,
+        130,
+        152,
+        155,
+        170,
+        183,
+        203
+      ],
+      "mean_dlogprob_token": -0.00031298203612095676,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 17,
+      "chunk": 5,
+      "experts": [
+        65,
+        68,
+        77,
+        84,
+        146,
+        161,
+        183,
+        253
+      ],
+      "mean_dlogprob_token": -0.00034693626876158845,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 30,
+      "chunk": 5,
+      "experts": [
+        17,
+        101,
+        118,
+        154,
+        206,
+        224,
+        228,
+        244
+      ],
+      "mean_dlogprob_token": -0.0003722745343388567,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 24,
+      "chunk": 11,
+      "experts": [
+        5,
+        83,
+        91,
+        123,
+        159,
+        173,
+        198,
+        232
+      ],
+      "mean_dlogprob_token": -0.00037352897834352916,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 20,
+      "chunk": 1,
+      "experts": [
+        5,
+        14,
+        51,
+        158,
+        226,
+        227,
+        241,
+        250
+      ],
+      "mean_dlogprob_token": -0.00039640986506128684,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 21,
+      "chunk": 8,
+      "experts": [
+        10,
+        27,
+        37,
+        65,
+        71,
+        92,
+        212,
+        234
+      ],
+      "mean_dlogprob_token": -0.0004121386327824439,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 9,
+      "chunk": 2,
+      "experts": [
+        49,
+        60,
+        70,
+        74,
+        87,
+        97,
+        138,
+        242
+      ],
+      "mean_dlogprob_token": -0.0004129291446588468,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 29,
+      "chunk": 0,
+      "experts": [
+        31,
+        40,
+        70,
+        75,
+        82,
+        105,
+        123,
+        181
+      ],
+      "mean_dlogprob_token": -0.0004309550022298936,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 32,
+      "chunk": 6,
+      "experts": [
+        73,
+        130,
+        152,
+        155,
+        182,
+        196,
+        200,
+        251
+      ],
+      "mean_dlogprob_token": -0.0004367900219222065,
+      "masked_slot_hits": 25
+    },
+    {
+      "layer": 18,
+      "chunk": 10,
+      "experts": [
+        42,
+        83,
+        106,
+        133,
+        145,
+        164,
+        173,
+        230
+      ],
+      "mean_dlogprob_token": -0.00044944709001182304,
+      "masked_slot_hits": 35
+    },
+    {
+      "layer": 29,
+      "chunk": 3,
+      "experts": [
+        6,
+        24,
+        182,
+        196,
+        209,
+        217,
+        227,
+        237
+      ],
+      "mean_dlogprob_token": -0.00046646909140690695,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 34,
+      "chunk": 3,
+      "experts": [
+        30,
+        50,
+        79,
+        100,
+        118,
+        119,
+        126,
+        210
+      ],
+      "mean_dlogprob_token": -0.00047192740021273494,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 25,
+      "chunk": 8,
+      "experts": [
+        25,
+        58,
+        67,
+        107,
+        109,
+        201,
+        207,
+        226
+      ],
+      "mean_dlogprob_token": -0.0004886430600752334,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 31,
+      "chunk": 1,
+      "experts": [
+        5,
+        13,
+        103,
+        128,
+        136,
+        156,
+        198,
+        210
+      ],
+      "mean_dlogprob_token": -0.0004894703342870343,
+      "masked_slot_hits": 1
+    },
+    {
+      "layer": 35,
+      "chunk": 1,
+      "experts": [
+        25,
+        26,
+        45,
+        50,
+        168,
+        237,
+        246,
+        249
+      ],
+      "mean_dlogprob_token": -0.0004936834384352551,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 11,
+      "chunk": 1,
+      "experts": [
+        6,
+        53,
+        100,
+        166,
+        179,
+        182,
+        217,
+        227
+      ],
+      "mean_dlogprob_token": -0.0004948975474690087,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 21,
+      "chunk": 3,
+      "experts": [
+        3,
+        30,
+        74,
+        76,
+        87,
+        135,
+        182,
+        242
+      ],
+      "mean_dlogprob_token": -0.0004983351691407734,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 19,
+      "chunk": 5,
+      "experts": [
+        5,
+        78,
+        94,
+        209,
+        210,
+        216,
+        227,
+        254
+      ],
+      "mean_dlogprob_token": -0.000502191160333787,
+      "masked_slot_hits": 31
+    },
+    {
+      "layer": 15,
+      "chunk": 0,
+      "experts": [
+        15,
+        107,
+        164,
+        198,
+        201,
+        205,
+        214,
+        253
+      ],
+      "mean_dlogprob_token": -0.000526277581229806,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 10,
+      "chunk": 0,
+      "experts": [
+        89,
+        112,
+        131,
+        180,
+        181,
+        186,
+        209,
+        221
+      ],
+      "mean_dlogprob_token": -0.0005323044324541115,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 30,
+      "chunk": 0,
+      "experts": [
+        7,
+        23,
+        26,
+        29,
+        41,
+        49,
+        168,
+        200
+      ],
+      "mean_dlogprob_token": -0.000537310817890102,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 17,
+      "chunk": 8,
+      "experts": [
+        43,
+        103,
+        109,
+        134,
+        145,
+        175,
+        178,
+        239
+      ],
+      "mean_dlogprob_token": -0.0005420672896434553,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 19,
+      "chunk": 3,
+      "experts": [
+        6,
+        149,
+        160,
+        175,
+        188,
+        213,
+        223,
+        242
+      ],
+      "mean_dlogprob_token": -0.0005425371782621369,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 3,
+      "chunk": 2,
+      "experts": [
+        18,
+        80,
+        83,
+        151,
+        168,
+        181,
+        241,
+        245
+      ],
+      "mean_dlogprob_token": -0.0005580476349376084,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 31,
+      "chunk": 0,
+      "experts": [
+        8,
+        21,
+        62,
+        140,
+        147,
+        168,
+        182,
+        187
+      ],
+      "mean_dlogprob_token": -0.0005607591701846104,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 37,
+      "chunk": 0,
+      "experts": [
+        79,
+        142,
+        150,
+        154,
+        183,
+        197,
+        216,
+        228
+      ],
+      "mean_dlogprob_token": -0.0005773253091314601,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 27,
+      "chunk": 9,
+      "experts": [
+        31,
+        41,
+        64,
+        89,
+        90,
+        104,
+        113,
+        117
+      ],
+      "mean_dlogprob_token": -0.0005794029166281689,
+      "masked_slot_hits": 47
+    },
+    {
+      "layer": 9,
+      "chunk": 11,
+      "experts": [
+        75,
+        106,
+        136,
+        154,
+        155,
+        193,
+        199,
+        252
+      ],
+      "mean_dlogprob_token": -0.0005973102488496806,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 38,
+      "chunk": 9,
+      "experts": [
+        2,
+        25,
+        68,
+        99,
+        108,
+        187,
+        218,
+        224
+      ],
+      "mean_dlogprob_token": -0.0006057443033569143,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 4,
+      "chunk": 8,
+      "experts": [
+        6,
+        29,
+        31,
+        64,
+        99,
+        126,
+        196,
+        198
+      ],
+      "mean_dlogprob_token": -0.0006078849265271913,
+      "masked_slot_hits": 71
+    },
+    {
+      "layer": 22,
+      "chunk": 4,
+      "experts": [
+        14,
+        15,
+        69,
+        99,
+        105,
+        151,
+        162,
+        241
+      ],
+      "mean_dlogprob_token": -0.0006145638071757276,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 34,
+      "chunk": 8,
+      "experts": [
+        0,
+        27,
+        32,
+        122,
+        157,
+        159,
+        173,
+        179
+      ],
+      "mean_dlogprob_token": -0.0006155356277304236,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 27,
+      "chunk": 1,
+      "experts": [
+        22,
+        105,
+        152,
+        161,
+        176,
+        201,
+        211,
+        223
+      ],
+      "mean_dlogprob_token": -0.0006216759320523124,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 33,
+      "chunk": 8,
+      "experts": [
+        71,
+        101,
+        106,
+        140,
+        149,
+        209,
+        211,
+        213
+      ],
+      "mean_dlogprob_token": -0.0006391475011691128,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 7,
+      "chunk": 2,
+      "experts": [
+        8,
+        18,
+        25,
+        45,
+        69,
+        89,
+        162,
+        179
+      ],
+      "mean_dlogprob_token": -0.0006420220743166283,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 38,
+      "chunk": 10,
+      "experts": [
+        4,
+        5,
+        23,
+        109,
+        128,
+        161,
+        190,
+        207
+      ],
+      "mean_dlogprob_token": -0.0006436194934087425,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 6,
+      "chunk": 4,
+      "experts": [
+        0,
+        17,
+        86,
+        108,
+        117,
+        132,
+        189,
+        240
+      ],
+      "mean_dlogprob_token": -0.0006494888157249079,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 26,
+      "chunk": 0,
+      "experts": [
+        23,
+        108,
+        121,
+        129,
+        152,
+        192,
+        195,
+        233
+      ],
+      "mean_dlogprob_token": -0.0006843018927611411,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 6,
+      "chunk": 0,
+      "experts": [
+        5,
+        20,
+        47,
+        66,
+        130,
+        188,
+        229,
+        234
+      ],
+      "mean_dlogprob_token": -0.0007135424311854877,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 38,
+      "chunk": 2,
+      "experts": [
+        19,
+        100,
+        110,
+        129,
+        178,
+        214,
+        219,
+        253
+      ],
+      "mean_dlogprob_token": -0.0007169197833718499,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 25,
+      "chunk": 0,
+      "experts": [
+        39,
+        54,
+        59,
+        88,
+        90,
+        96,
+        186,
+        218
+      ],
+      "mean_dlogprob_token": -0.0007322995406866539,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 7,
+      "chunk": 5,
+      "experts": [
+        13,
+        94,
+        102,
+        118,
+        150,
+        189,
+        205,
+        236
+      ],
+      "mean_dlogprob_token": -0.0007351244014968117,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 18,
+      "chunk": 1,
+      "experts": [
+        26,
+        65,
+        78,
+        120,
+        136,
+        168,
+        235,
+        248
+      ],
+      "mean_dlogprob_token": -0.0007642824384674896,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 35,
+      "chunk": 3,
+      "experts": [
+        4,
+        23,
+        28,
+        110,
+        172,
+        175,
+        200,
+        255
+      ],
+      "mean_dlogprob_token": -0.0007722432419541292,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 5,
+      "chunk": 8,
+      "experts": [
+        35,
+        49,
+        121,
+        123,
+        148,
+        167,
+        184,
+        212
+      ],
+      "mean_dlogprob_token": -0.0007742222789000053,
+      "masked_slot_hits": 32
+    },
+    {
+      "layer": 35,
+      "chunk": 0,
+      "experts": [
+        70,
+        82,
+        109,
+        150,
+        177,
+        188,
+        205,
+        238
+      ],
+      "mean_dlogprob_token": -0.0007818558651706553,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 21,
+      "chunk": 1,
+      "experts": [
+        46,
+        50,
+        60,
+        80,
+        91,
+        157,
+        223,
+        238
+      ],
+      "mean_dlogprob_token": -0.0007938331818877487,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 15,
+      "chunk": 8,
+      "experts": [
+        24,
+        32,
+        62,
+        64,
+        83,
+        89,
+        180,
+        184
+      ],
+      "mean_dlogprob_token": -0.0008012179396246211,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 28,
+      "chunk": 0,
+      "experts": [
+        17,
+        27,
+        52,
+        77,
+        86,
+        125,
+        132,
+        251
+      ],
+      "mean_dlogprob_token": -0.0008028621487028431,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 36,
+      "chunk": 7,
+      "experts": [
+        11,
+        139,
+        178,
+        189,
+        210,
+        213,
+        237,
+        238
+      ],
+      "mean_dlogprob_token": -0.0008054060208451119,
+      "masked_slot_hits": 35
+    },
+    {
+      "layer": 13,
+      "chunk": 1,
+      "experts": [
+        9,
+        12,
+        17,
+        54,
+        62,
+        88,
+        122,
+        198
+      ],
+      "mean_dlogprob_token": -0.0008241262521551107,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 26,
+      "chunk": 4,
+      "experts": [
+        15,
+        85,
+        104,
+        133,
+        185,
+        188,
+        248,
+        255
+      ],
+      "mean_dlogprob_token": -0.0008451094045085483,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 13,
+      "chunk": 2,
+      "experts": [
+        10,
+        24,
+        85,
+        188,
+        213,
+        226,
+        247,
+        250
+      ],
+      "mean_dlogprob_token": -0.0008557523906347342,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 30,
+      "chunk": 3,
+      "experts": [
+        2,
+        58,
+        110,
+        202,
+        210,
+        218,
+        231,
+        247
+      ],
+      "mean_dlogprob_token": -0.0008663040061946958,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 4,
+      "chunk": 9,
+      "experts": [
+        10,
+        19,
+        50,
+        53,
+        66,
+        69,
+        135,
+        140
+      ],
+      "mean_dlogprob_token": -0.000881092383436588,
+      "masked_slot_hits": 46
+    },
+    {
+      "layer": 39,
+      "chunk": 8,
+      "experts": [
+        14,
+        17,
+        60,
+        81,
+        115,
+        171,
+        182,
+        192
+      ],
+      "mean_dlogprob_token": -0.0008978486216317805,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 17,
+      "chunk": 1,
+      "experts": [
+        83,
+        85,
+        105,
+        133,
+        136,
+        182,
+        203,
+        240
+      ],
+      "mean_dlogprob_token": -0.0009098377777263522,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 20,
+      "chunk": 5,
+      "experts": [
+        32,
+        67,
+        130,
+        146,
+        150,
+        155,
+        229,
+        245
+      ],
+      "mean_dlogprob_token": -0.0009230775431205984,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 13,
+      "chunk": 7,
+      "experts": [
+        4,
+        73,
+        105,
+        106,
+        129,
+        143,
+        180,
+        184
+      ],
+      "mean_dlogprob_token": -0.0009541307976741464,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 3,
+      "chunk": 1,
+      "experts": [
+        10,
+        57,
+        63,
+        74,
+        93,
+        125,
+        136,
+        165
+      ],
+      "mean_dlogprob_token": -0.0009608332702555344,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 6,
+      "chunk": 5,
+      "experts": [
+        93,
+        99,
+        103,
+        116,
+        150,
+        151,
+        187,
+        252
+      ],
+      "mean_dlogprob_token": -0.0009609173421267769,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 20,
+      "chunk": 3,
+      "experts": [
+        22,
+        78,
+        97,
+        111,
+        131,
+        198,
+        211,
+        215
+      ],
+      "mean_dlogprob_token": -0.0009728178592922632,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 36,
+      "chunk": 4,
+      "experts": [
+        33,
+        72,
+        111,
+        121,
+        177,
+        190,
+        247,
+        249
+      ],
+      "mean_dlogprob_token": -0.0009827785861489247,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 23,
+      "chunk": 3,
+      "experts": [
+        23,
+        30,
+        97,
+        113,
+        125,
+        177,
+        185,
+        235
+      ],
+      "mean_dlogprob_token": -0.0010100234012497822,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 36,
+      "chunk": 0,
+      "experts": [
+        46,
+        90,
+        91,
+        100,
+        150,
+        162,
+        236,
+        243
+      ],
+      "mean_dlogprob_token": -0.0010180167155340314,
+      "masked_slot_hits": 2
+    },
+    {
+      "layer": 9,
+      "chunk": 3,
+      "experts": [
+        101,
+        110,
+        133,
+        139,
+        147,
+        157,
+        218,
+        226
+      ],
+      "mean_dlogprob_token": -0.0010245828335220253,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 14,
+      "chunk": 4,
+      "experts": [
+        2,
+        4,
+        80,
+        99,
+        102,
+        119,
+        135,
+        222
+      ],
+      "mean_dlogprob_token": -0.0010485064703971148,
+      "masked_slot_hits": 11
+    },
+    {
+      "layer": 34,
+      "chunk": 6,
+      "experts": [
+        2,
+        75,
+        154,
+        167,
+        211,
+        236,
+        244,
+        248
+      ],
+      "mean_dlogprob_token": -0.001056810315700929,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 29,
+      "chunk": 4,
+      "experts": [
+        3,
+        55,
+        92,
+        118,
+        143,
+        146,
+        148,
+        210
+      ],
+      "mean_dlogprob_token": -0.0010746906009444501,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 33,
+      "chunk": 7,
+      "experts": [
+        13,
+        91,
+        158,
+        159,
+        171,
+        188,
+        195,
+        222
+      ],
+      "mean_dlogprob_token": -0.001087600703613134,
+      "masked_slot_hits": 19
+    },
+    {
+      "layer": 1,
+      "chunk": 0,
+      "experts": [
+        38,
+        55,
+        115,
+        184,
+        196,
+        210,
+        229,
+        248
+      ],
+      "mean_dlogprob_token": -0.0011022041999195764,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 19,
+      "chunk": 0,
+      "experts": [
+        0,
+        58,
+        103,
+        136,
+        140,
+        147,
+        152,
+        198
+      ],
+      "mean_dlogprob_token": -0.0011041477409889922,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 10,
+      "chunk": 7,
+      "experts": [
+        13,
+        28,
+        45,
+        57,
+        99,
+        162,
+        170,
+        210
+      ],
+      "mean_dlogprob_token": -0.001125951654103119,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 27,
+      "chunk": 0,
+      "experts": [
+        15,
+        91,
+        122,
+        194,
+        198,
+        205,
+        214,
+        253
+      ],
+      "mean_dlogprob_token": -0.0011428475299908314,
+      "masked_slot_hits": 3
+    },
+    {
+      "layer": 27,
+      "chunk": 2,
+      "experts": [
+        43,
+        73,
+        143,
+        175,
+        193,
+        202,
+        243,
+        251
+      ],
+      "mean_dlogprob_token": -0.0011560216298676096,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 31,
+      "chunk": 3,
+      "experts": [
+        0,
+        6,
+        104,
+        161,
+        213,
+        216,
+        223,
+        250
+      ],
+      "mean_dlogprob_token": -0.0011627059075181023,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 23,
+      "chunk": 0,
+      "experts": [
+        1,
+        21,
+        53,
+        67,
+        119,
+        232,
+        240,
+        245
+      ],
+      "mean_dlogprob_token": -0.0011873169842147036,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 36,
+      "chunk": 8,
+      "experts": [
+        4,
+        32,
+        58,
+        77,
+        82,
+        155,
+        176,
+        196
+      ],
+      "mean_dlogprob_token": -0.0012924274014949333,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 35,
+      "chunk": 7,
+      "experts": [
+        111,
+        126,
+        134,
+        162,
+        171,
+        178,
+        217,
+        242
+      ],
+      "mean_dlogprob_token": -0.001297238503866538,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 10,
+      "chunk": 2,
+      "experts": [
+        2,
+        16,
+        30,
+        32,
+        75,
+        164,
+        203,
+        241
+      ],
+      "mean_dlogprob_token": -0.0013073339468974154,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 36,
+      "chunk": 3,
+      "experts": [
+        30,
+        35,
+        86,
+        95,
+        96,
+        108,
+        174,
+        179
+      ],
+      "mean_dlogprob_token": -0.0013170012698537903,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 36,
+      "chunk": 10,
+      "experts": [
+        13,
+        27,
+        61,
+        80,
+        149,
+        154,
+        185,
+        204
+      ],
+      "mean_dlogprob_token": -0.0013170424621415933,
+      "masked_slot_hits": 38
+    },
+    {
+      "layer": 25,
+      "chunk": 1,
+      "experts": [
+        9,
+        10,
+        12,
+        31,
+        50,
+        62,
+        122,
+        247
+      ],
+      "mean_dlogprob_token": -0.0013206876137701329,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 16,
+      "chunk": 10,
+      "experts": [
+        23,
+        49,
+        121,
+        165,
+        197,
+        213,
+        222,
+        227
+      ],
+      "mean_dlogprob_token": -0.0013217871064625797,
+      "masked_slot_hits": 28
+    },
+    {
+      "layer": 20,
+      "chunk": 11,
+      "experts": [
+        26,
+        34,
+        36,
+        128,
+        144,
+        153,
+        167,
+        209
+      ],
+      "mean_dlogprob_token": -0.001337493858045491,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 39,
+      "chunk": 11,
+      "experts": [
+        29,
+        47,
+        123,
+        178,
+        195,
+        198,
+        230,
+        255
+      ],
+      "mean_dlogprob_token": -0.0013941484008492822,
+      "masked_slot_hits": 72
+    },
+    {
+      "layer": 20,
+      "chunk": 6,
+      "experts": [
+        9,
+        19,
+        37,
+        60,
+        82,
+        122,
+        149,
+        213
+      ],
+      "mean_dlogprob_token": -0.0014071564579962725,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 13,
+      "chunk": 9,
+      "experts": [
+        16,
+        27,
+        86,
+        158,
+        201,
+        209,
+        227,
+        234
+      ],
+      "mean_dlogprob_token": -0.0014095186579652363,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 22,
+      "chunk": 3,
+      "experts": [
+        32,
+        37,
+        38,
+        41,
+        86,
+        158,
+        202,
+        206
+      ],
+      "mean_dlogprob_token": -0.0014119878878773306,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 29,
+      "chunk": 5,
+      "experts": [
+        68,
+        93,
+        97,
+        113,
+        131,
+        163,
+        187,
+        195
+      ],
+      "mean_dlogprob_token": -0.0014194970076806257,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 12,
+      "chunk": 10,
+      "experts": [
+        22,
+        70,
+        77,
+        79,
+        113,
+        184,
+        198,
+        237
+      ],
+      "mean_dlogprob_token": -0.0014440164786719834,
+      "masked_slot_hits": 34
+    },
+    {
+      "layer": 34,
+      "chunk": 5,
+      "experts": [
+        4,
+        25,
+        47,
+        66,
+        104,
+        144,
+        198,
+        214
+      ],
+      "mean_dlogprob_token": -0.0014650926568720024,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 4,
+      "chunk": 0,
+      "experts": [
+        47,
+        57,
+        86,
+        115,
+        124,
+        166,
+        207,
+        237
+      ],
+      "mean_dlogprob_token": -0.0014716410686252956,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 9,
+      "chunk": 7,
+      "experts": [
+        7,
+        21,
+        31,
+        38,
+        52,
+        158,
+        212,
+        216
+      ],
+      "mean_dlogprob_token": -0.0014749676138308132,
+      "masked_slot_hits": 45
+    },
+    {
+      "layer": 18,
+      "chunk": 2,
+      "experts": [
+        23,
+        36,
+        51,
+        76,
+        178,
+        180,
+        231,
+        234
+      ],
+      "mean_dlogprob_token": -0.0014869839142193086,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 36,
+      "chunk": 9,
+      "experts": [
+        40,
+        42,
+        60,
+        88,
+        127,
+        131,
+        164,
+        241
+      ],
+      "mean_dlogprob_token": -0.0015455245738849044,
+      "masked_slot_hits": 33
+    },
+    {
+      "layer": 35,
+      "chunk": 4,
+      "experts": [
+        88,
+        98,
+        187,
+        201,
+        211,
+        226,
+        243,
+        247
+      ],
+      "mean_dlogprob_token": -0.0015711353371443693,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 9,
+      "chunk": 6,
+      "experts": [
+        62,
+        79,
+        134,
+        163,
+        173,
+        196,
+        219,
+        234
+      ],
+      "mean_dlogprob_token": -0.00158785334588174,
+      "masked_slot_hits": 40
+    },
+    {
+      "layer": 14,
+      "chunk": 11,
+      "experts": [
+        8,
+        16,
+        104,
+        150,
+        219,
+        223,
+        245,
+        252
+      ],
+      "mean_dlogprob_token": -0.0015983575056175425,
+      "masked_slot_hits": 27
+    },
+    {
+      "layer": 16,
+      "chunk": 5,
+      "experts": [
+        1,
+        64,
+        79,
+        98,
+        103,
+        214,
+        240,
+        244
+      ],
+      "mean_dlogprob_token": -0.0016339590349438993,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 37,
+      "chunk": 6,
+      "experts": [
+        1,
+        18,
+        112,
+        128,
+        148,
+        187,
+        210,
+        254
+      ],
+      "mean_dlogprob_token": -0.0016863963082869304,
+      "masked_slot_hits": 14
+    },
+    {
+      "layer": 1,
+      "chunk": 6,
+      "experts": [
+        56,
+        108,
+        145,
+        148,
+        160,
+        180,
+        194,
+        219
+      ],
+      "mean_dlogprob_token": -0.001692486553110939,
+      "masked_slot_hits": 120
+    },
+    {
+      "layer": 24,
+      "chunk": 3,
+      "experts": [
+        29,
+        30,
+        45,
+        105,
+        179,
+        197,
+        228,
+        239
+      ],
+      "mean_dlogprob_token": -0.0016940802179306047,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 8,
+      "chunk": 4,
+      "experts": [
+        27,
+        32,
+        37,
+        54,
+        136,
+        154,
+        229,
+        255
+      ],
+      "mean_dlogprob_token": -0.0017140851878139074,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 6,
+      "chunk": 2,
+      "experts": [
+        6,
+        13,
+        35,
+        45,
+        87,
+        146,
+        202,
+        253
+      ],
+      "mean_dlogprob_token": -0.0017466008612245787,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 19,
+      "chunk": 2,
+      "experts": [
+        13,
+        21,
+        93,
+        125,
+        156,
+        161,
+        165,
+        172
+      ],
+      "mean_dlogprob_token": -0.0018002234328378108,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 37,
+      "chunk": 5,
+      "experts": [
+        42,
+        49,
+        75,
+        82,
+        102,
+        118,
+        146,
+        217
+      ],
+      "mean_dlogprob_token": -0.0018628315256137284,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 19,
+      "chunk": 1,
+      "experts": [
+        8,
+        62,
+        128,
+        131,
+        168,
+        182,
+        187,
+        200
+      ],
+      "mean_dlogprob_token": -0.0019078491486652638,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 38,
+      "chunk": 11,
+      "experts": [
+        11,
+        98,
+        106,
+        125,
+        138,
+        188,
+        244,
+        255
+      ],
+      "mean_dlogprob_token": -0.0019177028352714842,
+      "masked_slot_hits": 35
+    },
+    {
+      "layer": 35,
+      "chunk": 2,
+      "experts": [
+        113,
+        125,
+        144,
+        147,
+        158,
+        216,
+        219,
+        227
+      ],
+      "mean_dlogprob_token": -0.0019292330034659244,
+      "masked_slot_hits": 12
+    },
+    {
+      "layer": 32,
+      "chunk": 7,
+      "experts": [
+        9,
+        40,
+        51,
+        93,
+        115,
+        147,
+        163,
+        208
+      ],
+      "mean_dlogprob_token": -0.001947905140211148,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 16,
+      "chunk": 4,
+      "experts": [
+        3,
+        29,
+        91,
+        127,
+        158,
+        160,
+        176,
+        241
+      ],
+      "mean_dlogprob_token": -0.0019567928757169284,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 32,
+      "chunk": 0,
+      "experts": [
+        39,
+        69,
+        79,
+        114,
+        153,
+        169,
+        190,
+        222
+      ],
+      "mean_dlogprob_token": -0.0019781600567512214,
+      "masked_slot_hits": 4
+    },
+    {
+      "layer": 19,
+      "chunk": 6,
+      "experts": [
+        24,
+        55,
+        95,
+        113,
+        157,
+        169,
+        186,
+        220
+      ],
+      "mean_dlogprob_token": -0.002022016839873686,
+      "masked_slot_hits": 21
+    },
+    {
+      "layer": 24,
+      "chunk": 1,
+      "experts": [
+        28,
+        61,
+        75,
+        171,
+        172,
+        202,
+        204,
+        246
+      ],
+      "mean_dlogprob_token": -0.002074774460197659,
+      "masked_slot_hits": 5
+    },
+    {
+      "layer": 7,
+      "chunk": 6,
+      "experts": [
+        34,
+        50,
+        60,
+        74,
+        119,
+        122,
+        127,
+        232
+      ],
+      "mean_dlogprob_token": -0.002190261120631476,
+      "masked_slot_hits": 41
+    },
+    {
+      "layer": 26,
+      "chunk": 8,
+      "experts": [
+        19,
+        41,
+        46,
+        55,
+        139,
+        199,
+        216,
+        254
+      ],
+      "mean_dlogprob_token": -0.0022605421718253638,
+      "masked_slot_hits": 26
+    },
+    {
+      "layer": 11,
+      "chunk": 5,
+      "experts": [
+        22,
+        38,
+        43,
+        56,
+        105,
+        163,
+        211,
+        253
+      ],
+      "mean_dlogprob_token": -0.00227301901577448,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 31,
+      "chunk": 11,
+      "experts": [
+        18,
+        24,
+        29,
+        82,
+        83,
+        197,
+        206,
+        244
+      ],
+      "mean_dlogprob_token": -0.002376742603701132,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 13,
+      "chunk": 4,
+      "experts": [
+        8,
+        23,
+        25,
+        53,
+        75,
+        117,
+        128,
+        229
+      ],
+      "mean_dlogprob_token": -0.0023949151545821223,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 7,
+      "chunk": 11,
+      "experts": [
+        54,
+        59,
+        83,
+        177,
+        183,
+        186,
+        211,
+        230
+      ],
+      "mean_dlogprob_token": -0.002418594204755209,
+      "masked_slot_hits": 23
+    },
+    {
+      "layer": 16,
+      "chunk": 6,
+      "experts": [
+        34,
+        44,
+        175,
+        207,
+        208,
+        215,
+        224,
+        226
+      ],
+      "mean_dlogprob_token": -0.0024413262653979473,
+      "masked_slot_hits": 9
+    },
+    {
+      "layer": 8,
+      "chunk": 6,
+      "experts": [
+        45,
+        64,
+        129,
+        130,
+        150,
+        161,
+        163,
+        215
+      ],
+      "mean_dlogprob_token": -0.00249788483051816,
+      "masked_slot_hits": 29
+    },
+    {
+      "layer": 28,
+      "chunk": 6,
+      "experts": [
+        15,
+        38,
+        42,
+        103,
+        191,
+        208,
+        226,
+        248
+      ],
+      "mean_dlogprob_token": -0.0025145503724468554,
+      "masked_slot_hits": 24
+    },
+    {
+      "layer": 31,
+      "chunk": 2,
+      "experts": [
+        58,
+        93,
+        124,
+        131,
+        152,
+        159,
+        170,
+        200
+      ],
+      "mean_dlogprob_token": -0.0025711653943290003,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 6,
+      "chunk": 8,
+      "experts": [
+        24,
+        41,
+        80,
+        119,
+        213,
+        223,
+        237,
+        247
+      ],
+      "mean_dlogprob_token": -0.002571907162809417,
+      "masked_slot_hits": 62
+    },
+    {
+      "layer": 9,
+      "chunk": 10,
+      "experts": [
+        30,
+        77,
+        83,
+        93,
+        108,
+        144,
+        205,
+        214
+      ],
+      "mean_dlogprob_token": -0.0025919592699210625,
+      "masked_slot_hits": 25
+    },
+    {
+      "layer": 12,
+      "chunk": 2,
+      "experts": [
+        37,
+        95,
+        141,
+        171,
+        172,
+        183,
+        215,
+        231
+      ],
+      "mean_dlogprob_token": -0.002659295692865271,
+      "masked_slot_hits": 13
+    },
+    {
+      "layer": 4,
+      "chunk": 10,
+      "experts": [
+        0,
+        35,
+        63,
+        141,
+        190,
+        210,
+        211,
+        230
+      ],
+      "mean_dlogprob_token": -0.002660038914108931,
+      "masked_slot_hits": 83
+    },
+    {
+      "layer": 10,
+      "chunk": 1,
+      "experts": [
+        4,
+        38,
+        67,
+        153,
+        230,
+        237,
+        239,
+        254
+      ],
+      "mean_dlogprob_token": -0.0026919767624349333,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 21,
+      "chunk": 5,
+      "experts": [
+        77,
+        104,
+        110,
+        133,
+        139,
+        163,
+        213,
+        218
+      ],
+      "mean_dlogprob_token": -0.0027071126341979834,
+      "masked_slot_hits": 39
+    },
+    {
+      "layer": 20,
+      "chunk": 9,
+      "experts": [
+        25,
+        64,
+        140,
+        200,
+        204,
+        218,
+        244,
+        252
+      ],
+      "mean_dlogprob_token": -0.0027467789659567643,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 14,
+      "chunk": 10,
+      "experts": [
+        68,
+        92,
+        112,
+        130,
+        142,
+        193,
+        199,
+        239
+      ],
+      "mean_dlogprob_token": -0.0027562273298826767,
+      "masked_slot_hits": 26
+    },
+    {
+      "layer": 7,
+      "chunk": 8,
+      "experts": [
+        33,
+        93,
+        163,
+        190,
+        193,
+        197,
+        219,
+        231
+      ],
+      "mean_dlogprob_token": -0.002801091750067819,
+      "masked_slot_hits": 22
+    },
+    {
+      "layer": 21,
+      "chunk": 7,
+      "experts": [
+        11,
+        21,
+        52,
+        79,
+        124,
+        205,
+        214,
+        244
+      ],
+      "mean_dlogprob_token": -0.002856414702364418,
+      "masked_slot_hits": 6
+    },
+    {
+      "layer": 8,
+      "chunk": 9,
+      "experts": [
+        25,
+        36,
+        79,
+        84,
+        88,
+        138,
+        167,
+        240
+      ],
+      "mean_dlogprob_token": -0.0028791465647373116,
+      "masked_slot_hits": 18
+    },
+    {
+      "layer": 6,
+      "chunk": 9,
+      "experts": [
+        4,
+        30,
+        46,
+        83,
+        121,
+        170,
+        225,
+        248
+      ],
+      "mean_dlogprob_token": -0.003018386633859116,
+      "masked_slot_hits": 43
+    },
+    {
+      "layer": 7,
+      "chunk": 7,
+      "experts": [
+        42,
+        95,
+        98,
+        99,
+        149,
+        192,
+        224,
+        249
+      ],
+      "mean_dlogprob_token": -0.003035986780317579,
+      "masked_slot_hits": 26
+    },
+    {
+      "layer": 37,
+      "chunk": 10,
+      "experts": [
+        17,
+        26,
+        35,
+        45,
+        59,
+        77,
+        198,
+        252
+      ],
+      "mean_dlogprob_token": -0.003077320072649492,
+      "masked_slot_hits": 39
+    },
+    {
+      "layer": 22,
+      "chunk": 2,
+      "experts": [
+        4,
+        16,
+        30,
+        58,
+        75,
+        101,
+        177,
+        178
+      ],
+      "mean_dlogprob_token": -0.0031628732553752315,
+      "masked_slot_hits": 10
+    },
+    {
+      "layer": 12,
+      "chunk": 6,
+      "experts": [
+        78,
+        87,
+        110,
+        142,
+        195,
+        197,
+        230,
+        248
+      ],
+      "mean_dlogprob_token": -0.003183743708877529,
+      "masked_slot_hits": 8
+    },
+    {
+      "layer": 5,
+      "chunk": 6,
+      "experts": [
+        4,
+        36,
+        48,
+        93,
+        138,
+        183,
+        196,
+        206
+      ],
+      "mean_dlogprob_token": -0.0031979999876057263,
+      "masked_slot_hits": 32
+    },
+    {
+      "layer": 15,
+      "chunk": 11,
+      "experts": [
+        17,
+        27,
+        128,
+        179,
+        196,
+        199,
+        210,
+        222
+      ],
+      "mean_dlogprob_token": -0.0032063619582913816,
+      "masked_slot_hits": 7
+    },
+    {
+      "layer": 3,
+      "chunk": 11,
+      "experts": [
+        67,
+        79,
+        110,
+        139,
+        143,
+        147,
+        164,
+        212
+      ],
+      "mean_dlogprob_token": -0.0037800189123187167,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 18,
+      "chunk": 11,
+      "experts": [
+        31,
+        34,
+        54,
+        56,
+        129,
+        143,
+        146,
+        224
+      ],
+      "mean_dlogprob_token": -0.003817587192315841,
+      "masked_slot_hits": 15
+    },
+    {
+      "layer": 9,
+      "chunk": 8,
+      "experts": [
+        17,
+        25,
+        27,
+        43,
+        152,
+        162,
+        208,
+        222
+      ],
+      "mean_dlogprob_token": -0.0038722607432646328,
+      "masked_slot_hits": 30
+    },
+    {
+      "layer": 12,
+      "chunk": 11,
+      "experts": [
+        52,
+        58,
+        73,
+        76,
+        127,
+        174,
+        233,
+        235
+      ],
+      "mean_dlogprob_token": -0.0039477385130686216,
+      "masked_slot_hits": 47
+    },
+    {
+      "layer": 7,
+      "chunk": 10,
+      "experts": [
+        6,
+        20,
+        21,
+        96,
+        106,
+        110,
+        160,
+        247
+      ],
+      "mean_dlogprob_token": -0.00405883979128685,
+      "masked_slot_hits": 20
+    },
+    {
+      "layer": 0,
+      "chunk": 9,
+      "experts": [
+        27,
+        45,
+        164,
+        168,
+        209,
+        215,
+        240,
+        252
+      ],
+      "mean_dlogprob_token": -0.004227287941308333,
+      "masked_slot_hits": 209
+    },
+    {
+      "layer": 0,
+      "chunk": 6,
+      "experts": [
+        19,
+        76,
+        104,
+        125,
+        208,
+        211,
+        217,
+        239
+      ],
+      "mean_dlogprob_token": -0.0042715837145896884,
+      "masked_slot_hits": 132
+    },
+    {
+      "layer": 20,
+      "chunk": 2,
+      "experts": [
+        27,
+        70,
+        90,
+        101,
+        134,
+        178,
+        189,
+        255
+      ],
+      "mean_dlogprob_token": -0.004287214625946945,
+      "masked_slot_hits": 25
+    },
+    {
+      "layer": 6,
+      "chunk": 11,
+      "experts": [
+        78,
+        101,
+        113,
+        131,
+        207,
+        232,
+        242,
+        251
+      ],
+      "mean_dlogprob_token": -0.004543161081225655,
+      "masked_slot_hits": 75
+    },
+    {
+      "layer": 34,
+      "chunk": 9,
+      "experts": [
+        17,
+        59,
+        68,
+        77,
+        138,
+        162,
+        201,
+        228
+      ],
+      "mean_dlogprob_token": -0.004790721490765648,
+      "masked_slot_hits": 31
+    },
+    {
+      "layer": 9,
+      "chunk": 5,
+      "experts": [
+        24,
+        37,
+        40,
+        109,
+        118,
+        124,
+        179,
+        182
+      ],
+      "mean_dlogprob_token": -0.005035161424530088,
+      "masked_slot_hits": 26
+    },
+    {
+      "layer": 11,
+      "chunk": 6,
+      "experts": [
+        0,
+        30,
+        50,
+        82,
+        115,
+        117,
+        175,
+        200
+      ],
+      "mean_dlogprob_token": -0.005114731083267543,
+      "masked_slot_hits": 17
+    },
+    {
+      "layer": 11,
+      "chunk": 10,
+      "experts": [
+        48,
+        55,
+        68,
+        87,
+        104,
+        124,
+        224,
+        243
+      ],
+      "mean_dlogprob_token": -0.005116712618473684,
+      "masked_slot_hits": 36
+    },
+    {
+      "layer": 7,
+      "chunk": 3,
+      "experts": [
+        28,
+        30,
+        67,
+        71,
+        157,
+        188,
+        201,
+        250
+      ],
+      "mean_dlogprob_token": -0.005783316876719624,
+      "masked_slot_hits": 16
+    },
+    {
+      "layer": 0,
+      "chunk": 2,
+      "experts": [
+        3,
+        28,
+        100,
+        118,
+        182,
+        183,
+        243,
+        245
+      ],
+      "mean_dlogprob_token": -0.00582676810661642,
+      "masked_slot_hits": 90
+    },
+    {
+      "layer": 2,
+      "chunk": 10,
+      "experts": [
+        12,
+        21,
+        37,
+        62,
+        99,
+        118,
+        136,
+        214
+      ],
+      "mean_dlogprob_token": -0.006549231397827704,
+      "masked_slot_hits": 126
+    },
+    {
+      "layer": 1,
+      "chunk": 8,
+      "experts": [
+        14,
+        53,
+        88,
+        103,
+        143,
+        164,
+        208,
+        216
+      ],
+      "mean_dlogprob_token": -0.007155491693684901,
+      "masked_slot_hits": 110
+    },
+    {
+      "layer": 2,
+      "chunk": 1,
+      "experts": [
+        44,
+        48,
+        114,
+        138,
+        161,
+        190,
+        199,
+        211
+      ],
+      "mean_dlogprob_token": -0.007649304867313411,
+      "masked_slot_hits": 83
+    },
+    {
+      "layer": 10,
+      "chunk": 9,
+      "experts": [
+        83,
+        106,
+        113,
+        129,
+        140,
+        189,
+        206,
+        235
+      ],
+      "mean_dlogprob_token": -0.00833487615377937,
+      "masked_slot_hits": 45
+    },
+    {
+      "layer": 8,
+      "chunk": 11,
+      "experts": [
+        46,
+        50,
+        126,
+        128,
+        142,
+        160,
+        204,
+        233
+      ],
+      "mean_dlogprob_token": -0.01179214609566337,
+      "masked_slot_hits": 66
+    }
+  ]
+}

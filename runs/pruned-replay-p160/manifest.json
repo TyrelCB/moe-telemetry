@@ -1,0 +1,20 @@
+{
+  "model": "p160",
+  "base_url": "http://localhost:8123",
+  "dataset": "calib_transcripts.jsonl",
+  "max_tokens": 256,
+  "temperature": 0.0,
+  "started": "2026-10-16T17:41:18Z",
+  "argv": [
+    "--base-url",
+    "http://localhost:8123",
+    "--model",
+    "p160",
+    "--dataset",
+    "calib_transcripts.jsonl",
+    "--out",
+    "runs/pruned-replay-p160",
+    "--max-tokens",
+    "256"
+  ]
+}

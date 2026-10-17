@@ -1,0 +1,17 @@
+{
+  "model": "/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8",
+  "base_url": "http://localhost:8123",
+  "dataset": null,
+  "max_tokens": 64,
+  "temperature": 0.0,
+  "started": "2026-10-15T02:24:06Z",
+  "argv": [
+    "--base-url",
+    "http://localhost:8123",
+    "--out",
+    "runs/default-30",
+    "--max-tokens",
+    "64",
+    "--save-raw"
+  ]
+}

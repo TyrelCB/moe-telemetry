@@ -1,0 +1,227 @@
++ cd /home/tyrel/projects/moe-telemetry
++ PY=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python
++ VLLM=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm
++ SRC=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8
++ kill_server
++ pkill -f 'bin/vllm serve'
++ sleep 20
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224
++ '[' -d /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224 ']'
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192
++ '[' -d /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192 ']'
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224
++ wait_health
++ setsid nohup /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm serve /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224 --served-model-name p224 --port 8123 --gpu-memory-utilization 0.66 --max-model-len 8192 --enable-return-routed-experts
+++ seq 1 80
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 200 = 200 ']'
++ return 0
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python collect_routed_experts.py --base-url http://localhost:8123 --model p224 --dataset calib_transcripts.jsonl --out runs/pruned-replay-224 --max-tokens 256
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py calib_transcripts.jsonl --url http://localhost:8123 --out equiv_tier224.json --n 32
++ kill_server
++ pkill -f 'bin/vllm serve'
++ sleep 20
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192
++ wait_health
++ setsid nohup /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm serve /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192 --served-model-name p192 --port 8123 --gpu-memory-utilization 0.66 --max-model-len 8192 --enable-return-routed-experts
+++ seq 1 80
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 200 = 200 ']'
++ return 0
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python collect_routed_experts.py --base-url http://localhost:8123 --model p192 --dataset calib_transcripts.jsonl --out runs/pruned-replay-192 --max-tokens 256
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py calib_transcripts.jsonl --url http://localhost:8123 --out equiv_tier192.json --n 32
++ kill_server
++ pkill -f 'bin/vllm serve'
++ sleep 20
++ for N in 224 192
++ python3 compare_pruned.py runs/tyrel-transcripts/counts.npy runs/pruned-replay-224/counts.npy /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224/prune_manifest.json
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py --diff equiv_base.json equiv_tier224.json
++ for N in 224 192
++ python3 compare_pruned.py runs/tyrel-transcripts/counts.npy runs/pruned-replay-192/counts.npy /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192/prune_manifest.json
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python logprob_equivalence.py --diff equiv_base.json equiv_tier192.json
++ echo TIER_DONE
+TIER_DONE

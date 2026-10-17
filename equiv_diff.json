@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/tyrel/projects/moe-telemetry/logprob_equivalence.py", line 27, in <module>
+    "baseline_mean": round(statistics.mean(a.values()), 4),
+                           ~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "/home/tyrel/.local/share/uv/python/cpython-3.13.12-linux-aarch64-gnu/lib/python3.13/statistics.py", line 490, in mean
+    raise StatisticsError('mean requires at least one data point')
+statistics.StatisticsError: mean requires at least one data point

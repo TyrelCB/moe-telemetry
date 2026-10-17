@@ -1,0 +1,20 @@
+{
+  "model": "p192g",
+  "base_url": "http://localhost:8123",
+  "dataset": "calib_transcripts.jsonl",
+  "max_tokens": 256,
+  "temperature": 0.0,
+  "started": "2026-10-16T18:33:26Z",
+  "argv": [
+    "--base-url",
+    "http://localhost:8123",
+    "--model",
+    "p192g",
+    "--dataset",
+    "calib_transcripts.jsonl",
+    "--out",
+    "runs/pruned-replay-p192g",
+    "--max-tokens",
+    "256"
+  ]
+}

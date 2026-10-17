@@ -1,0 +1,103 @@
+{
+  "pass_at_1": 0.5833333333333334,
+  "solved": 14,
+  "n": 24,
+  "results": [
+    {
+      "idx": "HumanEval/0",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/1",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/2",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/3",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/4",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/5",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/6",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/7",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/8",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/9",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/10",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/11",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/12",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/13",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/14",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/15",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/16",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/17",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/18",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/19",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/20",
+      "pass": true
+    },
+    {
+      "idx": "HumanEval/21",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/22",
+      "pass": false
+    },
+    {
+      "idx": "HumanEval/23",
+      "pass": true
+    }
+  ]
+}

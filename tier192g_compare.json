@@ -1,0 +1,74 @@
+{
+  "tokens_routed_baseline_kept_experts": 18070879,
+  "tokens_routed_pruned": 18294080,
+  "gini_baseline_kept_mean": 0.6083,
+  "gini_pruned_mean": 0.6017,
+  "mass_drift_mean": 0.000154,
+  "mass_drift_p95": 0.00045,
+  "mass_drift_max": 0.00171,
+  "layer_tv_mean": 0.01343,
+  "layer_tv_max": 0.02492,
+  "newly_dead_count": 12,
+  "newly_dead_after_prune": [
+    [
+      13,
+      186,
+      0
+    ],
+    [
+      17,
+      31,
+      0
+    ],
+    [
+      17,
+      70,
+      0
+    ],
+    [
+      35,
+      45,
+      0
+    ],
+    [
+      35,
+      50,
+      0
+    ],
+    [
+      36,
+      38,
+      0
+    ],
+    [
+      36,
+      182,
+      0
+    ],
+    [
+      37,
+      41,
+      0
+    ],
+    [
+      37,
+      47,
+      0
+    ],
+    [
+      38,
+      29,
+      0
+    ],
+    [
+      38,
+      85,
+      0
+    ],
+    [
+      38,
+      229,
+      0
+    ]
+  ]
+}

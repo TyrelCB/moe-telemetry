@@ -1,0 +1,193 @@
+{"messages": [{"role": "user", "content": "how large is the current claude overhead (system prompt + skills + mcp)?"}]}
+{"messages": [{"role": "user", "content": "take a look at this /home/tyrel/.claude/debug/84b0c04f-5b34-4ffc-bcb0-59a5ee9f3ceb.txt"}]}
+{"messages": [{"role": "user", "content": "[Image #1] not sure why the formating is off, looks like there are some line breaks or new lines or something weird here. also there should be a 3rd compaction event. and also add the sglan launch params/docker container info"}]}
+{"messages": [{"role": "user", "content": "[Image #24] todo's seem to update at the begining and end but not updating between each task/item, also [Image #25] todo's don't seem to be visable on a browser that did not initiate the original request? only for this thread I see other todo lists in other threads, 2) I should be able to get out of config without scrolling to the bottom to hit save/cancel (esc) or clicking off + if any changes highlight the changes and ask save/discard, 3) are these silent write todo failures? [Image #26] 4) [Image #27] some weird db locked issue on long rajectory really was a 5min job took 86min something went wrong"}]}
+{"messages": [{"role": "user", "content": "we need to make the README a lot better, [Image #23] [Image #24] you see how these other repo's are, they have an image and stuff"}]}
+{"messages": [{"role": "user", "content": "I want the files explorer/editor to connect and search rag"}]}
+{"messages": [{"role": "user", "content": "I think take_message could work, the others I want to hold off on for now. also I think the agent streams, so not sure sentence by sentence would do much. also ttsnorm needs to be able to read /home/tyrel/Documents/resume/Tyrel_Barstow_Resume.md the new voice clone Tyrel seems to need some more work"}]}
+{"messages": [{"role": "user", "content": "take a look at this debug file: /home/tyrel/.claude/debug/eb875e9d-2762-4d7d-8694-117bcb917bdc.txt and the sglang server logs on spark-ee93"}]}
+{"messages": [{"role": "user", "content": "10mb per song? Seems high. This is for me, possibly others later, yes it needs to be accessible over tailscale"}]}
+{"messages": [{"role": "user", "content": "everytime with the password... im the only user"}]}
+{"messages": [{"role": "user", "content": "restart the session, configure it to do a full reload every day at midnight EST"}]}
+{"messages": [{"role": "user", "content": "all local and remote sources need to be kept in sync, and git commits on every change"}]}
+{"messages": [{"role": "user", "content": "did the 5 min timer get put back in place? do we have a fix for why auto-recovery failed and it sat in red for 22 hours"}]}
+{"messages": [{"role": "user", "content": "Tell me about this project, would this be difficult to move to smoke-16g?"}]}
+{"messages": [{"role": "user", "content": "I think somethings wrong with the trading, help troubleshoot logs for today end at 8:49"}]}
+{"messages": [{"role": "user", "content": "[Image #5] while it looks better, I'm wonder if it is supose to just sit up in the corner all the time? would it look better full screen? layered in the background?"}]}
+{"messages": [{"role": "user", "content": "is the current hermes default profile set to hook rag like it is in spark-ee93 and claude code?"}]}
+{"messages": [{"role": "user", "content": "lets dive deeper into speech-to-text and its venv, theres no way they should be anywhere near this large... something is wrong"}]}
+{"messages": [{"role": "user", "content": "configure the hermes agent to use the sglang provider on spark-da36"}]}
+{"messages": [{"role": "user", "content": "check both the debug file and the sglang logs and update the report as neeeded"}]}
+{"messages": [{"role": "user", "content": "do one last update to the report based on the latest debug file and sglang logs"}]}
+{"messages": [{"role": "user", "content": "attaching file not working [Image #11] file:///home/tyrel/Downloads/good_video_ltx2_5_t2v.json"}]}
+{"messages": [{"role": "user", "content": "pocket voice should have a dropdown with multiple and an option for cloning and saving"}]}
+{"messages": [{"role": "user", "content": "seems like this thread is stuck [Image #3]"}]}
+{"messages": [{"role": "user", "content": "lets say for now it expects langbang to do both stt and tts, its a custom python ivr"}]}
+{"messages": [{"role": "user", "content": "is self signed or caddy the right way to go?"}]}
+{"messages": [{"role": "user", "content": "we need a search feature that will match either caption or lyrics"}]}
+{"messages": [{"role": "user", "content": "no don't reset password we have done that like 3 times already... auto-login. if the connection comes from localhost or whatever don't do auth"}]}
+{"messages": [{"role": "user", "content": "is the workflow for checking the system recorded anywhere?"}]}
+{"messages": [{"role": "user", "content": "why is this message from 7/22? older than our 7 day filter [Image #14]"}]}
+{"messages": [{"role": "user", "content": "there is accually more broken then that [Image #1] [Image #2] hyperion is in much better shape overall [Image #3] things are accually functional. also create a new file rather than trying to fix these maybe copy hyperion change to ffb investments, fix the interactive service"}]}
+{"messages": [{"role": "user", "content": "yes, check what rag.mcp.tyrel.cloud exposes"}]}
+{"messages": [{"role": "user", "content": "is the chached-token issue on the sglang side or the claude code settings change?"}]}
+{"messages": [{"role": "user", "content": "I'm unable to load LangBang on localhost:8123, just spins and says page unresponsive"}]}
+{"messages": [{"role": "user", "content": "ok its connected now, but i wee a popup about switching to websockets is the recommended way to connect and could improve battery life. are we using websockets to connect?"}]}
+{"messages": [{"role": "user", "content": "Qwen Voice Tyrel says stored value, but I'm not seeing any of the qwen voices or a clone voice option like we have with pocket-tts"}]}
+{"messages": [{"role": "user", "content": "Need a read aloud option for markdown files and PDFs possibly other files like text"}]}
+{"messages": [{"role": "user", "content": "right now I can't paste an image into the chat, we should enable this if the model supports vision + other modalities"}]}
+{"messages": [{"role": "user", "content": "Well the 194 should already have mp3 versions on the spark right? No transcoding needed"}]}
+{"messages": [{"role": "user", "content": "I don't see the page refressh on the summary page on the windows machine, looking at it with the user, is autorefresh on the page working?"}]}
+{"messages": [{"role": "user", "content": "Has ccleaner been completely removed from the machine, identity what url is consuming 624mb"}]}
+{"messages": [{"role": "user", "content": "can you take a look at this file:///home/tyrel/obsidian-algo-landing.html#risk and fix it it looks terrible, it was supose to look kind of like hyperion algo landing page, but I want you to make it for FFB Investments"}]}
+{"messages": [{"role": "user", "content": "can you log into the endpoint and check sglang logs"}]}
+{"messages": [{"role": "user", "content": "1) i'm still not seeing timestamps on scheduled run results [Image #14] 2) I need to be able to rename chats/threads, chats can start one way and end up somewhere totally different, the rename should be manual/auto/initial. 3) some sort of thread recap feature would be cool"}]}
+{"messages": [{"role": "user", "content": "Do not implement a file read write block on the claude directory that is not the fix here"}]}
+{"messages": [{"role": "user", "content": "I want to incorporate this with LangBang: https://huggingface.co/unsloth/embeddinggemma-2-GGUF as a built in rag service for langbang and its generated files + supporting federation across a distributed fleet. I currently have this going locally  via http://fedora:8900/ and atlas on spark-ee93"}]}
+{"messages": [{"role": "user", "content": "[Image #4] lets get voice mode (mic) working now that we have an https endpoint"}]}
+{"messages": [{"role": "user", "content": "add the rag-mcp and the crawl4ai mcp/project"}]}
+{"messages": [{"role": "user", "content": "ok so the username (tyrelcb@gmail.com) and password should be in supabase, which you have access too"}]}
+{"messages": [{"role": "user", "content": "ok the user wants another catagory specifically for \"@shaniah\" references"}]}
+{"messages": [{"role": "user", "content": "What are the personal chrome instances navigated to? Can you see?"}]}
+{"messages": [{"role": "user", "content": "[Image #4] I don't understand the visualization on the right side of the screen lets change it"}]}
+{"messages": [{"role": "user", "content": "ok check our debug file again, what were the speeds from the sglang logs prefill and generation"}]}
+{"messages": [{"role": "user", "content": "[Image #7] i'm not seeing langbang create a scheduled task it did something else [Image #8]"}]}
+{"messages": [{"role": "user", "content": "are we noting compaction events in the trajectory and chat ?"}]}
+{"messages": [{"role": "user", "content": "[Image #2] lets have a multi select feature, sometimes I want img/audio/video or some combination. plus the search disapears making quick re-searches difficult without deleting the entire file name. also one more thing, the audio visualization is non-existant we need visualizations like we have in music-sync + metadata if available and the ability to generate an image or images for the audio by using the audio + metadata as reference"}]}
+{"messages": [{"role": "user", "content": "is thinking off for the /api/ivr endpoint?"}]}
+{"messages": [{"role": "user", "content": "lets incorporate deep agents https://docs.langchain.com/oss/python/deepagents/overview.md"}]}
+{"messages": [{"role": "user", "content": "the music flutter app doesn't work offline, just spins, I need to have access to this synced music offline on my phone"}]}
+{"messages": [{"role": "user", "content": "wait for the next cycle and confirm it appears"}]}
+{"messages": [{"role": "user", "content": "the client is reporting a power outage last night, check on the status of the agent and message flow rates"}]}
+{"messages": [{"role": "user", "content": "there was a claude code auto-compact in the data somewhere, can we idenfiy it from looking at the cache-hit data?"}]}
+{"messages": [{"role": "user", "content": "[Image #6] lets clean up this layout, its way to skinny thin. I also want to implement some scheduled task support"}]}
+{"messages": [{"role": "user", "content": "yes do both, make up the tasks, also enable the per thread option"}]}
+{"messages": [{"role": "user", "content": "are local rag searches slow? it seam like its really slow to return results... and it didn't find my resume [Image #1]"}]}
+{"messages": [{"role": "user", "content": "I updated the client with the new endpoint, do you see any failures"}]}
+{"messages": [{"role": "user", "content": "[Image #8] game not centered, blaster not hitting enimies, wall jump throws the player too far in the other direction (can't climb a vertical wall)"}]}
+{"messages": [{"role": "user", "content": "what do we need to do to put this online"}]}
+{"messages": [{"role": "user", "content": "it still looks messed up [Image #6] did the summary page get updated? for example the 5:56 message is showing twice"}]}
+{"messages": [{"role": "user", "content": "ok create a modern html report with our findings today + observed speeds, mtp acceptance rates, cache hits"}]}
+{"messages": [{"role": "user", "content": "1) yes add the confirmation, these buttons are close together and a mis-click could delete a thread so yes ad the confirmation... but only if it has substatial content... don't ask me to confirm on a thread that has very little to no content 2) yes clean up junk rows that increase the thought I have to got through seeing junk/tests mixed in with real work"}]}
+{"messages": [{"role": "user", "content": "[Image #11] i'm not seeing the edit/preview window being updated"}]}
+{"messages": [{"role": "user", "content": "Nfty notifications are broken do the need a hostname update, the go the the music sync app when notifications are clicked now"}]}
+{"messages": [{"role": "user", "content": "I'm setting up IVR on dell-fedora-32g and its calling langbang. should langbang have a seperate endpoint for IVR with limited tools like read only + rag ?"}]}
+{"messages": [{"role": "user", "content": "does reasoning show up in the chatbot? we should have a show reasoning toggle"}]}
+{"messages": [{"role": "user", "content": "try it again, I toggled it and enabled usb"}]}
+{"messages": [{"role": "user", "content": "[Image #11] this was more of a request for hospital records, 2) this one is showing up as perpetua rosalia limbo when it was a direct message between the client and Momina Hassan [Image #12]"}]}
+{"messages": [{"role": "user", "content": "I want to be able to run shell commands from the chat window with !cmd"}]}
+{"messages": [{"role": "user", "content": "continue, and troubleshoot this [Image #15] [Image #16]"}]}
+{"messages": [{"role": "user", "content": "i'm getting a failed backup notifications, also the config settings screen needs a rework, the endless scroll is hard to find things"}]}
+{"messages": [{"role": "user", "content": "is thinking working? I have it configured but not seeing thinking cards"}]}
+{"messages": [{"role": "user", "content": "seems like multiple keypresses at the same time don't register: space + x + z, weapon should have a charge feature like megaman x for a bigger blast"}]}
+{"messages": [{"role": "user", "content": "ok now favorites work, but songs that are favorites don't have a star on them when in the now playing section, or at least its not obviously visable. I'm thinking playlists should also get synced. should favorites have a different color in the library and playlists?"}]}
+{"messages": [{"role": "user", "content": "[Image #2] we should order messages in the summary by newest to oldest so we can quickly see new entries in priority catagories"}]}
+{"messages": [{"role": "user", "content": "[Image #2] i'm not seeing responses what is going on?"}]}
+{"messages": [{"role": "user", "content": "[Image #8] why did I get two response and a voice playback failure"}]}
+{"messages": [{"role": "user", "content": "Wtf the ivr settings are messed up, voice needs changed back to Tyrel and the greeting is wrong. Those aren't changes from today you've really f***** this thing up"}]}
+{"messages": [{"role": "user", "content": "looks like the ivr path is working however we are seeing latency increase, i'm wondering if that is our sliding window, I upped the context length to 64k on the gemma4 endpoing"}]}
+{"messages": [{"role": "user", "content": "ok lets build a mini-game into this for when we are bored or waiting on the model to do some agentic task. Mega Man X style platformer"}]}
+{"messages": [{"role": "user", "content": "[Image #1] when adding to a playlist, maybe there should be an option for new?"}]}
+{"messages": [{"role": "user", "content": "I see a couple of instances where converstaion title/heading doesn't match the message [Image #3] [Image #4] [Image #5]"}]}
+{"messages": [{"role": "user", "content": "[Image #1] look like a loop can you check the transcipts/trajectory"}]}
+{"messages": [{"role": "user", "content": "I'm noticing that the pocket-tts is struggling with date/time formats and numerical vallues. Can we build a text normalizer? I tested a more direct fix on Pocket: spelling the supplied date and time as \u201cThursday, October first, twenty twenty-six, at thirteen eleven U T C.\u201d Whisper then recovered \u201cThursday, October 1, 2026 at 1311 UTC,\u201d where it struggled with the abbreviated original. It\u2019s one take, not a guaranteed fix, but text normalization is the better next lever. [Image #19]"}]}
+{"messages": [{"role": "user", "content": "fleet management looks great is the project github readme/landing page up to date?"}]}
+{"messages": [{"role": "user", "content": "I can attached with the attach button again and paste, drag n drop does not work"}]}
+{"messages": [{"role": "user", "content": "ok well this needs syntax highlighting [Image #1] and code blocks needa copy to clipboard and download option"}]}
+{"messages": [{"role": "user", "content": "Hold them for now,  I want sharable tracks, and download"}]}
+{"messages": [{"role": "user", "content": "Only look at the last hour, Completely remove ccleaner, look for other junk software consuming system resources"}]}
+{"messages": [{"role": "user", "content": "1) ok so if a chat is resumed, lets bump it up the list so the most current are at the top of the list."}]}
+{"messages": [{"role": "user", "content": "should we A/B and/or enable a config option?"}]}
+{"messages": [{"role": "user", "content": "the device crashed, langbang is down, it needs to be a system service"}]}
+{"messages": [{"role": "user", "content": "I would like to see the read words highlighted while being spoken. does our current transcription support word timing? do we need local fastwhisper? also we are rendering markdown which is great but llama-server also renders html [Image #7]"}]}
+{"messages": [{"role": "user", "content": "take a note about the mic access options in the readme we will come back to it... right now we have an issue [Image #14] GraphRecursionError: Recursion limit of 216 reached without hitting a stop condition."}]}
+{"messages": [{"role": "user", "content": "[Image #2] I need more control on the miniplayer, shuffle, back, next, repeat, favorite, playlist"}]}
+{"messages": [{"role": "user", "content": "I see one message thats in emergency shat shouldn't be: [Image #1] we need a negative filter for AI call sumaries with general for emergiencies type of recorded/transcribed messages"}]}
+{"messages": [{"role": "user", "content": "scheduled task outputs should have a timestamp in the thread so I can tell what run they were from"}]}
+{"messages": [{"role": "user", "content": "switched to websockets, test push worked"}]}
+{"messages": [{"role": "user", "content": "a terminal socket to the local + a fleet ssh manager would be great, also should a rag ingest be a scheduled task if local rag is enabled"}]}
+{"messages": [{"role": "user", "content": "it looks like its working well, I have to press the mic every time? whats with the empty thinking block [Image #5] after output. Lets do a hands-free mode."}]}
+{"messages": [{"role": "user", "content": "[Image #15] so continue did work, however it looks like the to-dos are in a bad state and did not update"}]}
+{"messages": [{"role": "user", "content": "Yes, ensure title, caption, lyrics, favorites, playlists all remain intact. Let's remove thumbs down tracks"}]}
+{"messages": [{"role": "user", "content": "Look at the history and identity the url"}]}
+{"messages": [{"role": "user", "content": "[Image #16] with the renameing changes, I can't really read the names at all from the sidebar anymore, should the sidebard be more dynamically spaced/expandable/shrikable"}]}
+{"messages": [{"role": "user", "content": "why does it take so long to switch between threads?"}]}
+{"messages": [{"role": "user", "content": "lets create a decision endpoint for systemone models and possibly inclue a lightweight one like laya"}]}
+{"messages": [{"role": "user", "content": "is it enough to handle a long conversation? 30 min of back and forth?"}]}
+{"messages": [{"role": "user", "content": "[Image #16] I asked it to do some more songs thinking the to-do list would getupdated based on our fix, why didn't it work?"}]}
+{"messages": [{"role": "user", "content": "the balls are adding up [Image #3] lets have a visualization switcher, what can we have thats cool like the music ball?"}]}
+{"messages": [{"role": "user", "content": "lets document them + the sidebard text (so we know which ones to target) then after the main loop we specifically search ( using the ringcentral app search feature) to find those specific problematic conversations and attempt a recovery on the info + update report. how frequently is it falling out of sync? does it take an hour to fall out? 4 hours?"}]}
+{"messages": [{"role": "user", "content": "1) [Image #20] I want langbang to support inline images/videos/audio assets - very usefull for seeing results without switching apps 2) when accessing from a phone I'm seeing that when the phone times out or I switch to another app or something the connection and generation within lagbang gets stopped/interupped [Image #21] 3) there should be a visible inidication in the chats/threads side pannel when a thread is running/taking action 4) when I give it a task and hit \"send\" its starts doing its thing, but If I open a new chat/thread, I can not send another message because \"stop\" is displayed. I need to be able to work on many chats/threads at once 4) sometimes it won't create a todo list unless prompted"}]}
+{"messages": [{"role": "user", "content": "So what happens if it enters plan mode again, does the system prompt get altered"}]}
+{"messages": [{"role": "user", "content": "whats the backup situation right now? do we have nightly incrementals"}]}
+{"messages": [{"role": "user", "content": "should we use a seperate model (or have the option to) for IVR functions smaller model like a 2B/4B model? I want to limit what this IVR agent can do but also allow it to do things and rag took way to long. what does rag curation look like?"}]}
+{"messages": [{"role": "user", "content": "i want you to investivage this project: /home/tyrel/python/telemarketing | i want to re-use the tts and stt calls api's at free tier levels for that langbang app. Read aloud and voice chat"}]}
+{"messages": [{"role": "user", "content": "the app password we are using for testing"}]}
+{"messages": [{"role": "user", "content": "[Image #9] there was no Mildred message for this it is still showing up. 2) this should be under supplies not hospital catagory: [Image #10]"}]}
+{"messages": [{"role": "user", "content": "are we using deepagents for every interaction? should we?"}]}
+{"messages": [{"role": "user", "content": "yes, go with Apache 2.0 + credits, I want to leave the commit history to show real work trejectory, just redact sensitive info. I don't really care about my LAN IP's being in there or device names."}]}
+{"messages": [{"role": "user", "content": "thread still looks stuck, died during thinking block [Image #4]"}]}
+{"messages": [{"role": "user", "content": "ok I raised context length to 16k is that enough and concurrencty to 2"}]}
+{"messages": [{"role": "user", "content": "with enable thinking turned off in the webgui config + reasoning on in the UI (upper right) generated output sometimes shows up in thinking blocks and sometimes as a new inline block seems to alternate output in different blocks [Image #4]"}]}
+{"messages": [{"role": "user", "content": "[Image #5] visualization is small and off center, lets try something that looks better"}]}
+{"messages": [{"role": "user", "content": "does it click the resync/refresh button that appears when it detects a sync issue?"}]}
+{"messages": [{"role": "user", "content": "is langbang listenting all all interfaces? do we have a caddy entry for it?"}]}
+{"messages": [{"role": "user", "content": "looks like we need to add more to the normilizer, pocket completly falls apart on this: \ud83c\udfc8 NFL \u2014 Week 4 final, and the storylines\n\nFull slate: Colts 30 Commanders 13 (London) \u00b7 Patriots 29 Bills 26 \u00b7 Bears 23 Jets 12 \u00b7 Jaguars 22 Bengals 17 \u00b7 Giants 36 Cardinals 24 \u00b7 Rams 24 Eagles 20 \u00b7 Packers 17 Bucs 14 \u00b7 Ravens 24 Titans 18 \u00b7 Cowboys 34 Texans 30 \u00b7 Dolphins 15 Vikings 10 \u00b7 Chiefs 30 Raiders 27 \u00b7 49ers 24 Broncos 14 \u00b7 Seahawks 30 Chargers 23 \u00b7 Panthers 32 Lions 26. Emoji's and apparently some special characters send it off the rails"}]}
+{"messages": [{"role": "user", "content": "I don't want to depend on btrfs, let's set up an archive with incrementals plus rsync solution"}]}
+{"messages": [{"role": "user", "content": "I think the site needs a favicon + a better site title than LANGBANG // NETNAVIGATOR"}]}
+{"messages": [{"role": "user", "content": "[Image #9] I don't see any kind of UI todo list for tasks completed/in-progress or any indications on sub-agents used/doing work. I like this deepseek harness todo implementation [Image #10] and some sort of status with a timer to let you know how long this agentic trajectory is taking. I also like the Trajectory view [Image #11] + all the stats at the bottom for easy visual reference"}]}
+{"messages": [{"role": "user", "content": "I feel like you've been messing around [Image #4] i know you can fix this...."}]}
+{"messages": [{"role": "user", "content": "does this langbang, deep agents, langchain architecture support skills and skill updates like hermes"}]}
+{"messages": [{"role": "user", "content": "1) [Image #9] the interaction with renaming a thread is very clunky, it seems to timeout and disapear way to quickly. 2) [Image #10] it would be nice to possibly have a message bar in the files preview that has this file in context and only edits this file for easy edits manually or with AI help without having to keep poping back and forth. 3) I would like our Files view to also be able to display pdf/image/sound/video"}]}
+{"messages": [{"role": "user", "content": "do the same for the ntfy container and gmail-mcp"}]}
+{"messages": [{"role": "user", "content": "when voice is on, should we stream thinking? right now its just responses. should this be an option? [Image #1] on the default/new chat display... lets use this pic [Image #2]"}]}
+{"messages": [{"role": "user", "content": "stop the rag-mcp and crawl4ai already live on the spark nothing new needed..."}]}
+{"messages": [{"role": "user", "content": "[Request interrupted by user for tool use]"}]}
+{"messages": [{"role": "user", "content": "[Image #23] it looks like there are some issues with writing files"}]}
+{"messages": [{"role": "user", "content": "[Image #13] this email chat is missing after the first user ask validation [Image #14] also I have enabled response logging in sglang for troubleshooting"}]}
+{"messages": [{"role": "user", "content": "I don't see any IVR settings in langbang config ui"}]}
+{"messages": [{"role": "user", "content": "[Image #6] now that MIC works, should we have a record option for creating voice clones?"}]}
+{"messages": [{"role": "user", "content": "you did amazing so far, the app should render markdown"}]}
+{"messages": [{"role": "user", "content": "the visualizations got smaller don't look as good"}]}
+{"messages": [{"role": "user", "content": "no sound in x-sim game, soundboard plays"}]}
+{"messages": [{"role": "user", "content": "Looks like the check email thread is having issues with plan mode"}]}
+{"messages": [{"role": "user", "content": "the ivr voice, can we select provider and voice here as well [Image #6] yes i am testing with no greeting"}]}
+{"messages": [{"role": "user", "content": "1) need prefill and generation tokens + tokens per second 2) need observable context length per conversation. 3) need a search chats feature"}]}
+{"messages": [{"role": "user", "content": "I feel like the the details page with the caption and lyrics should be more integrated into the now playing screen"}]}
+{"messages": [{"role": "user", "content": "yeah lets do it, lets go with option 1, but I also want langbang only skills is that doable?"}]}
+{"messages": [{"role": "user", "content": "are notification enabled? they need to be, also with scheduled tasks, do they have to be recoccuring?"}]}
+{"messages": [{"role": "user", "content": "should the db backups be a config menu items + a scheduled task just like rag rescan?"}]}
+{"messages": [{"role": "user", "content": "tell me about the autocompation settings currently in place for langchain/langraph SummarizationMiddleware"}]}
+{"messages": [{"role": "user", "content": "i'm on the phone, library come up but kinda slow, favorites just spin, playlists just spin, songs do play offline"}]}
+{"messages": [{"role": "user", "content": "[Image #12] [Image #13] lets clean up our MCP servers config to look/function more like these. also now we have we have stable-audio-sfx-mcp running on spark-ee93 lets generate the sfx that we put on hold"}]}
+{"messages": [{"role": "user", "content": "syntax highlighting in the file editor would be great, and markdown preview"}]}
+{"messages": [{"role": "user", "content": "[Image #5] why am I not seeing any threads"}]}
+{"messages": [{"role": "user", "content": "would you consider this an agentic harness?"}]}
+{"messages": [{"role": "user", "content": "is the emulateor app version pushed to the phone?"}]}
+{"messages": [{"role": "user", "content": "lets put caddy on this machine ensure langbang lisstes on all interfaces"}]}
+{"messages": [{"role": "user", "content": "[Image #18] when thinking is enabled what is the effort level xhigh? lets make this selectable as well"}]}
+{"messages": [{"role": "user", "content": "it seems like there is a lot of downtime/wasted time for things that could be done in parallel, tasks/todo items, crawls_url looks like it has a massive timeout and only crawls one at a time in serial fashion [Image #12], seems like even though we have tool calls and a todo list and such there should be some trajectory info but that tab is empty [Image #13]"}]}
+{"messages": [{"role": "user", "content": "I need a quick go to bottom / scroll to bottom action for long trejectories [Image #3] [Image #4] posibly an animated arrrow. I also want to see some sort of power up effect on the stop button [Image #5] like the mega man x blaster chargeup"}]}
+{"messages": [{"role": "user", "content": "I want to incorporate https://huggingface.co/kyutai/pocket-tts into langbang as a TTS provider on box CPU only"}]}
+{"messages": [{"role": "user", "content": "ok now I have it in bypass permissions, let do some real coding!!! Keep an eye on the performance of the model, the sglang logs, while we build a langchang + langsmith + langraph + langmorph + whatever. It at least has to have a web interface like the llama.cpp server (basic chat + agentic capabilites + mcp servers + storage + tool calls + ect... im sure i forgot something) dark mode by default obviously. I feel like the website should have sound effects and stuff, mega man x style. but don't generate them just notate this 1x spark is tight on vram right now and qwen3.8-next-flash has it all so just notate them and we will generate later. commit everything to git offten so we have an audit trail + recoverability"}]}
+{"messages": [{"role": "user", "content": "1) it doesn't look very good on the phone, do you have browser tools to pull it up and look at it? 2) when one thread is generating and then I switch to another thread, the output from the first thread shows up on the second, switching back moves the contetnt back to the original thread, so I think this is just a display thing output leaking between threads in UI"}]}
+{"messages": [{"role": "user", "content": "[Image #21] [Image #22] I don't see a way to change it, plus when I hit test I didn't see anything happen"}]}
+{"messages": [{"role": "user", "content": "is there an agentic limit? [Image #3] should we have settings for things like agentic settings, enabled/configured mcp servers, tool access?"}]}
+{"messages": [{"role": "user", "content": "lets put a soundboard link/button in the config so we can isolate and change any sound that needs an sfx regeneration"}]}
+{"messages": [{"role": "user", "content": "inline images don't seem to work [Image #1], I want to have a plan mode with user/human gates for follow questions, and I want an basic text editor for pulling up and editing files within the UI"}]}
+{"messages": [{"role": "user", "content": "I think caddy is the right way to go here, and I do have a public dns zone, caddy is already running on spark-ee93 and I don't mind running it on fedora as well, I do want langbang to to be portable harness (does this mean it should resolve to localhost?)"}]}
+{"messages": [{"role": "user", "content": "[Image #9] what the heck does every 4 hours at 26:00 mean? what time is 26:00 there is only 24 hours"}]}
+{"messages": [{"role": "user", "content": "lets implement all 3, per-thread prompt, langebang memory, and automatic skill improvement"}]}
+{"messages": [{"role": "user", "content": "was reasoning/thinking on or off before?"}]}
+{"messages": [{"role": "user", "content": "[Image #3] does inline images look like it worked to you?"}]}
+{"messages": [{"role": "user", "content": "[Image #5] why was this first message all chineese/japaneese? [Image #6] not sure whats going on here, but it look like it eventually came back. also 2 letters search looks like trash [Image #7]"}]}
+{"messages": [{"role": "user", "content": "yes it worked. ok now look at the sglang logs again for possible parser level issue [Image #17] lets see if we can identify whats up with the write todos failures and see if we might have a parser issue"}]}
+{"messages": [{"role": "user", "content": "can we implement a global model/provider in config and then an overide ability in each thread/task? kind of like how llama-server does it. I want to test other backend providers/models but don't want to flip everything"}]}
+{"messages": [{"role": "user", "content": "does each thread get its own modifyable system prompt? Does langbang use memories like hermes and claude? Does langbang have self-evolving/improving skills?"}]}
+{"messages": [{"role": "user", "content": "Check Langbang logs, looks like a lot of todo write failures"}]}
+{"messages": [{"role": "user", "content": "consider all of the components pocket-tts, langchain, langgraph, deepagents, etc for the license, do I need to desclose these or adhear to their licences as carry-forward work. I don't really care if its appache 2.0 or MIT"}]}
+{"messages": [{"role": "user", "content": "[Image #4] maybe add autocompletion or a search function"}]}
+{"messages": [{"role": "user", "content": "I see that langbang is currently a private repo, should we make it public, do we need to scrub anything?"}]}
+{"messages": [{"role": "user", "content": "[Image #5] [Image #6] I see a failed write todo call, but I don't see it as an error in the trajectory view, I also want the ability to copy a message/toolcall/etc directly from the trajectory view"}]}
+{"messages": [{"role": "user", "content": "[Image #12] I want to tie in image generation and editing via qwen2.1 running in confyui on spark-ee93. here are two example workflows that could probably be merged into one: '/home/tyrel/Downloads/qwen-image-2.1-uncensored-gguf-edit-3-images.json' '/home/tyrel/Downloads/qwen-image-2.1-uncensored-gguf-t2i (Copy).json'"}]}
+{"messages": [{"role": "user", "content": "how much effort is it to self-host ntfy server"}]}

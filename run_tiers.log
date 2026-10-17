@@ -1,0 +1,126 @@
++ cd /home/tyrel/projects/moe-telemetry
++ PY=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python
++ VLLM=/home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm
++ SRC=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8
++ kill_server
++ pkill -f 'bin/vllm serve'
++ sleep 20
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224
++ '[' -d /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224 ']'
++ python3 prune_checkpoint.py /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8 runs/tyrel-transcripts/counts.npy /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224 --nkeep 224
+layers=40 E=256 -> keep 224/layer; drops per layer: {0: 32, 1: 32, 2: 32, 3: 32, 4: 32, 5: 32, 6: 32, 7: 32, 8: 32, 9: 32, 10: 32, 11: 32, 12: 32, 13: 32, 14: 32, 15: 32, 16: 32, 17: 32, 18: 32, 19: 32, 20: 32, 21: 32, 22: 32, 23: 32, 24: 32, 25: 32, 26: 32, 27: 32, 28: 32, 29: 32, 30: 32, 31: 32, 32: 32, 33: 32, 34: 32, 35: 32, 36: 32, 37: 32, 38: 32, 39: 32}
+wrote /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224: 7872 expert tensors dropped; 56324 tensors remain; num_experts=224
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192
++ '[' -d /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192 ']'
++ python3 prune_checkpoint.py /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8 runs/tyrel-transcripts/counts.npy /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192 --nkeep 192
+layers=40 E=256 -> keep 192/layer; drops per layer: {0: 64, 1: 64, 2: 64, 3: 64, 4: 64, 5: 64, 6: 64, 7: 64, 8: 64, 9: 64, 10: 64, 11: 64, 12: 64, 13: 64, 14: 64, 15: 64, 16: 64, 17: 64, 18: 64, 19: 64, 20: 64, 21: 64, 22: 64, 23: 64, 24: 64, 25: 64, 26: 64, 27: 64, 28: 64, 29: 64, 30: 64, 31: 64, 32: 64, 33: 64, 34: 64, 35: 64, 36: 64, 37: 64, 38: 64, 39: 64}
+wrote /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned192: 15744 expert tensors dropped; 48452 tensors remain; num_experts=192
++ for N in 224 192
++ DST=/home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224
++ wait_health
++ setsid nohup /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/vllm serve /home/tyrel/models/FreeToken-Qwen3.5-35B-A3B-FP8-pruned224 --served-model-name p224 --port 8123 --gpu-memory-utilization 0.66 --max-model-len 8192
+++ seq 1 80
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 000 = 200 ']'
++ for i in $(seq 1 80)
++ sleep 15
+++ curl -s -o /dev/null -w '%{http_code}' localhost:8123/health
++ '[' 200 = 200 ']'
++ return 0
++ /home/tyrel/.venvs/qwen38-nvfp4-vllm/bin/python collect_routed_experts.py --base-url http://localhost:8123 --model p224 --dataset calib_transcripts.jsonl --out runs/pruned-replay-224 --max-tokens 256
